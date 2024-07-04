@@ -1,0 +1,124 @@
+.details
+    position: absolute
+    top: 2%
+    left: 13%
+    z-index: 1000
+    width: 75%
+    height: 150%
+    border-radius: 20px 
+    background-color: var(--bg-color-dark)
+    overflow: hidden
+    .close
+        position: absolute
+        top: 2%
+        right: 2%
+        color: var(--text-color-light)
+        font-size: 2vw
+        z-index: 100
+        cursor: pointer
+    .box1
+        width: 100%
+        height: 80vh
+
+        .box-bg
+            width: 100%
+            height: 100%
+            .videoPlay
+                width: 100%
+                height: 55%      
+                position: absolute
+                visibility: hidden
+               
+            img
+                width: 100%
+                height: 100%
+                object-fit: fill
+            &:hover
+                img
+                    visibility: hidden
+                .videoPlay
+                    visibility: visible
+                
+    .titals
+        margin-top: 2% 
+        width: 100%
+        height: 30vh
+        position: absolute
+        gap: 2%
+        display: flex
+        justify-content: flex-start
+        margin-left: 5%
+        align-items: center
+
+        z-index: 100
+     
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.619) 100%) 
+        .tital-img
+            width:15%
+            height: 100%
+            img
+                width: 100%
+                height: 100%
+                object-fit: fill
+        .tital-info
+            width: 45%
+            height: 100%
+          
+            h1
+                color: var(--text-color-light)
+                font-size: 2vw
+                font-weight: 600
+                padding: 1%
+                
+            .genres
+               
+              
+                width: 60%
+                height: 15%
+                display: flex
+                justify-content: center
+                align-items: center
+
+                ul
+                    display: flex
+                    list-style: none
+                    width: 100%
+                    height: 100%
+                    justify-content: space-evenly
+                    align-items: center
+                    li
+                        text-align: center
+                        margin-right: 2%
+
+                        width: 100%
+                        padding: 1%
+                        height: 100%
+                        color: var(--text-color-light)
+                        font-size: 1.2vw
+                        font-weight: 600
+            .pra
+                width: 100%
+                height: 35%
+                color: var(--text-color-light)
+                overflow: hidden
+                padding: 1%
+            .buttons
+                width: 100%
+                height: 20%
+                display: flex
+                justify-content: flex-start
+                align-items: center
+                gap: 2%
+                button
+                    width: 20%
+                    height: 100%
+                    background-color: var(--primary-color)
+                    color: var(--text-color-dark)
+                    font-size: 1.2vw
+                    font-weight: 600
+                    border: none
+                    cursor: pointer
+                    transition: 0.5s
+                    &:hover
+                        background-color: var(--text-color-light)
+                        color: var(--primary-color)

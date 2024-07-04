@@ -1,0 +1,231 @@
+{
+    "companies": [
+        {
+            "id": 1,
+            "name": "Walt Disney Animation Studios",
+            "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c8/Walt_Disney_Animation_Studios_logo.svg/375px-Walt_Disney_Animation_Studios_logo.svg.png",
+            "video_url": "https://www.youtube.com/watch?v=HCZeBzeAkPM",
+            "country": "United States"
+        },
+        {
+            "id": 2,
+            "name": "Pixar Animation Studios",
+            "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Pixar_logo.svg/375px-Pixar_logo.svg.png",
+            "video_url": "https://www.youtube.com/watch?v=HCZeBzeAkPM",
+            "country": "United States"
+        },
+        {
+            "id": 3,
+            "name": "DreamWorks Animation",
+            "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/f/ff/DreamWorks_Animation_SKG_logo_with_fishing_boy.svg/330px-DreamWorks_Animation_SKG_logo_with_fishing_boy.svg.png",
+            "video_url": "https://www.youtube.com/watch?v=HCZeBzeAkPM",
+            "country": "United States"
+        },
+        {
+            "id": 4,
+            "name": "Warner Bros. Animation",
+            "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Warner_Bros._Animation_2010_Logo.svg/180px-Warner_Bros._Animation_2010_Logo.svg.png",
+            "video_url": "https://example.com/videos/warnerbros_logo.mp4",
+            "country": "United States"
+        },
+        {
+            "id": 5,
+            "name": "Illumination Entertainment",
+            "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Illumination_Entertainment_logo.svg/330px-Illumination_Entertainment_logo.svg.png",
+            "video_url": "https://example.com/videos/illumination_logo.mp4",
+            "country": "United States"
+        },
+        {
+            "id": 6,
+            "name": "Blue Sky Studios",
+            "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Blue_Sky_Studios_2013_logo.svg/330px-Blue_Sky_Studios_2013_logo.svg.png",
+            "video_url": "https://example.com/videos/bluesky_logo.mp4",
+            "country": "United States"
+        },
+        {
+            "id": 7,
+            "name": "Nickelodeon Animation Studio",
+            "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Nickelodeon_Animation_Studio_Logo.svg/330px-Nickelodeon_Animation_Studio_Logo.svg.png",
+            "video_url": "https://example.com/videos/nickelodeon_logo.mp4",
+            "country": "United States"
+        },
+        {
+            "id": 8,
+            "name": "Cartoon Network Studios",
+            "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Cartoon_Network_Studios_%282022%29.svg/330px-Cartoon_Network_Studios_%282022%29.svg.png",
+            "video_url": "https://example.com/videos/cartoonnetwork_logo.mp4",
+            "country": "United States"
+        },
+        {
+            "id": 9,
+            "name": "Laika",
+            "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Laika_logo.svg/330px-Laika_logo.svg.png",
+            "video_url": "https://example.com/videos/laika_logo.mp4",
+            "country": "United States"
+        },
+        {
+            "id": 10,
+            "name": "Aardman Animations",
+            "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Aardman_Animations_2022.svg/330px-Aardman_Animations_2022.svg.png",
+            "video_url": "https://example.com/videos/aardman_logo.mp4",
+            "country": "United Kingdom"
+        },
+        {
+            "id": 11,
+            "name": "Sony Pictures Animation",
+            "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Sony_Pictures_Animation_2018_logo.svg/330px-Sony_Pictures_Animation_2018_logo.svg.png",
+            "video_url": "https://example.com/videos/sonypictures_logo.mp4",
+            "country": "United States"
+        },
+        {
+            "id": 12,
+            "name": "Titmouse, Inc.",
+            "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d6/Titmouse_logo.svg/330px-Titmouse_logo.svg.png",
+            "video_url": "https://example.com/videos/titmouse_logo.mp4",
+            "country": "United States"
+        },
+        {
+            "id": 13,
+            "name": "Studio Ghibli",
+            "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/ca/Studio_Ghibli_logo.svg/300px-Studio_Ghibli_logo.svg.png",
+            "video_url": "https://example.com/videos/ghibli_logo.mp4",
+            "country": "Japan"
+        },
+        {
+            "id": 14,
+            "name": "Toei Animation",
+            "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/ef/Toei_Animation_logo.svg/330px-Toei_Animation_logo.svg.png",
+            "video_url": "https://example.com/videos/toei_logo.mp4",
+            "country": "Japan"
+        },
+        {
+            "id": 15,
+            "name": "Kyoto Animation",
+            "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Kyoto_Animation_logo.svg/330px-Kyoto_Animation_logo.svg.png",
+            "video_url": "https://example.com/videos/kyoto_logo.mp4",
+            "country": "Japan"
+        },
+        {
+            "id": 16,
+            "name": "Trigger",
+            "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Trigger_Logo.svg/330px-Trigger_Logo.svg.png",
+            "video_url": "https://example.com/videos/trigger_logo.mp4",
+            "country": "Japan"
+        },
+        {
+            "id": 17,
+            "name": "Studio Chizu",
+            "logo": "https://upload.wikimedia.org/wikipedia/en/4/44/Studio_Chizu_logo.gif",
+            "video_url": "https://example.com/videos/chizu_logo.mp4",
+            "country": "Japan"
+        },
+        {
+            "id": 18,
+            "name": "Gaumont Animation",
+            "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Gaumont_Animation_logo.svg/330px-Gaumont_Animation_logo.svg.png",
+            "video_url": "https://example.com/videos/gaumont_logo.mp4",
+            "country": "France"
+        },
+        {
+            "id": 19,
+            "name": "Xilam Animation",
+            "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Xilam_-_Logo.png/330px-Xilam_-_Logo.png",
+            "video_url": "https://example.com/videos/xilam_logo.mp4",
+            "country": "France"
+        },
+        {
+            "id": 20,
+            "name": "Studio 100 Media",
+            "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Logo_Studio_100_Animation.png/330px-Logo_Studio_100_Animation.png",
+            "video_url": "https://example.com/videos/studio100_logo.mp4",
+            "country": "Germany"
+        },
+        {
+            "id": 21,
+            "name": "Atomic Cartoons",
+            "logo": "https://upload.wikimedia.org/wikipedia/en/7/75/Atomic_Cartoons_Logo.png",
+            "video_url": "https://example.com/videos/atomic_logo.mp4",
+            "country": "Canada"
+        },
+        {
+            "id": 22,
+            "name": "Mercury Filmworks",
+            "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/8/82/Mercury_Filmworks_logo_2022.png/330px-Mercury_Filmworks_logo_2022.png",
+            "video_url": "https://example.com/videos/mercury_logo.mp4",
+            "country": "Canada"
+        }
+    ],
+    "channels": [
+    {
+      "id": 1,
+      "name": "Cartoon Network",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Cartoon_Network_2010_logo.svg/300px-Cartoon_Network_2010_logo.svg.png",
+      "video_url": "https://example.com/videos/cartoonnetwork_intro.mp4",
+      "country": "United States"
+    },
+    {
+      "id": 2,
+      "name": "Nickelodeon",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Nickelodeon_2023_logo_%28outline%29.svg/375px-Nickelodeon_2023_logo_%28outline%29.svg.png",
+      "video_url": "https://example.com/videos/nickelodeon_intro.mp4",
+      "country": "United States"
+    },
+    {
+      "id": 3,
+      "name": "Disney Channel",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/2019_Disney_Channel_logo.svg/360px-2019_Disney_Channel_logo.svg.png",
+      "video_url": "https://example.com/videos/disneychannel_intro.mp4",
+      "country": "United States"
+    },
+    {
+      "id": 4,
+      "name": "Boomerang",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Boomerang_2014_logo.svg/300px-Boomerang_2014_logo.svg.png",
+      "video_url": "https://example.com/videos/boomerang_intro.mp4",
+      "country": "United States"
+    },
+ 
+    {
+      "id": 5,
+      "name": "Nick Jr.",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Nick_Jr._logo_2023.svg/300px-Nick_Jr._logo_2023.svg.png",
+      "video_url": "https://example.com/videos/nickjr_intro.mp4",
+      "country": "United States"
+    },
+    {
+      "id": 6,
+      "name": "Disney Junior",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Disney_Jr._2024.svg/375px-Disney_Jr._2024.svg.png",
+      "video_url": "https://example.com/videos/disneyjunior_intro.mp4",
+      "country": "United States"
+    },
+    { 
+        "id": 7,
+        "name": "Hungama TV",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Hungama_TV.svg/330px-Hungama_TV.svg.png",
+        "video_url": "https://example.com/videos/disneyjunior_intro.mp4",
+        "country": "India"
+    },
+    {
+        "id": 8,
+        "name": "Pogo",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/POGO-logo.png/375px-POGO-logo.png",
+        "video_url": "https://example.com/videos/disneyjunior_intro.mp4",
+        "country": "India"
+    },
+    {
+        "id": 9,
+        "name": "Sony YAY!",
+        "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/35/Sony_Yay_new.png/225px-Sony_Yay_new.png",
+        "video_url": "https://example.com/videos/disneyjunior_intro.mp4",
+        "country": "India"
+    },
+    {
+        "id": 10,
+        "name": "Discovery Kids",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Discovery_Kids_Logo_2021-Presente.webp/215px-Discovery_Kids_Logo_2021-Presente.webp.png",
+        "video_url": "https://example.com/videos/disneyjunior_intro.mp4",
+        "country": "India"
+    }
+    ]
+}

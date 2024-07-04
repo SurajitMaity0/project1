@@ -1,0 +1,163 @@
+header
+    padding: 0 1%
+    width: 100%
+    height: 8vh
+    display: flex
+    flex-flow: row wrap
+    justify-content: space-between
+    align-items: center
+    
+    // left nav
+
+    .left-nav
+        width: 50%
+        height: 100%
+
+        display: flex
+        justify-content: flex-start
+        align-items: center
+        gap: 3%
+        .menu-bar
+            width: 5%
+   
+            height: 65%
+            display: flex
+            align-items: center
+            color: white
+            justify-content: center
+            font-size: 2vw
+        .logo
+            width: 20%
+            height:70%
+            
+            img
+                width: 100%
+                height: 100%
+                object-fit: fill
+        .nav
+            width: 55%
+            height: 100%
+            border: 1px solid #fff
+            margin-left: 3%
+            display: flex
+            justify-content: space-between
+            align-items: center
+            gap: 5%
+    
+         
+            ul
+                list-style: none
+                display: flex
+                width: 100%
+                height: 100%
+                justify-content: space-between
+                align-items: center
+                padding: 0 1%
+                
+                gap: 2%
+                a
+                    padding: 2.5% 4%
+                    border-radius:7px
+                    color: white
+                    text-decoration: none
+                    &:hover
+                        background-color: #fff
+                        color: #000
+                    li
+                        display: flex
+                        justify-content: center
+                        align-items: center
+                        color: var(--text-color-dark)
+                        gap: 5%
+                        font-size: 1.2vw
+                
+                    span
+                        font-size: 1.1vw
+                        padding: 0 2%
+                    
+
+    // right nav
+    .right-nav
+       
+        width: 50%
+        height: 100%
+
+        display: flex
+        justify-content: flex-end
+        align-items: center
+        gap: 3%
+        .search
+            width: 45%
+            height: 75%
+            display: flex
+            border-radius: 50px
+            background-color: #ff110054
+            .mic
+                width: 15%
+                height: 100%
+                cursor: pointer
+                font-size: 1.2vw
+                display: flex
+                justify-content: center
+                color: #fff
+                align-items: center
+
+            input
+                width: 85%
+                background: none
+                border: none
+                color: #fff
+                font-size: 1.1vw
+                outline: none
+                height: 100%
+        
+            .search-buts
+                width: 15%
+                color: #fff
+                font-size: 1.2vw
+                display: flex
+                cursor: pointer
+                
+                justify-content: center
+                align-items: center
+        
+                height: 100%
+        .notifi
+            width: 20%
+            height: 100%
+            display: flex
+            justify-content: space-evenly
+            align-items: center
+
+            span
+                font-size: 1.5vw
+                color: var(--text-color-dark)
+               
+                cursor: pointer
+        .profile
+            width: 8%
+            height: 98%
+   
+            display: flex
+            justify-content: center
+            align-items: center
+            border-radius: 50%
+            cursor: pointer
+            // porfile hove  user-name show
+            &:hover
+                .user-name
+                    display: block
+
+
+
+            .user-icon
+                font-size: 2.5vw
+            
+            .user-name
+                position: absolute
+                top: 8%
+                display: none
+                right: 1%
+                color: white
+                font-size: 1.2vw
+                z-index: 100
