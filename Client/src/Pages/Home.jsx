@@ -15,7 +15,6 @@ const Home = () => {
   const year1990 = [];
   const year2000 = [];
   data.map((i) => {
-    console.log(i.title);
     if(i.titleType === 'tvSeries'){
       tvSeries.push(i);
     }

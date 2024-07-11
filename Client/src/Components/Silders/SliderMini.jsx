@@ -18,7 +18,6 @@ import OpenPage from '../Moviesdetails/OpenPage';
 const SliderMini = (props) => {
     const [openPage,setOpenPage] = useState(false);
     const { data } = props;
-    console.log("data caatagori", data);
 
     const handelOpenPage = ()=>{
         setOpenPage(true);
