@@ -1,12 +1,12 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
-import './Styles/SliderImage.sass';
 import { Pagination } from 'swiper/modules';
+import './Styles/SliderImage.sass';
 import ImageBox from './ImageBox';
-import { Link } from 'react-router-dom';
-
+import { Link, NavLink } from 'react-router-dom';
+import Details from '../Moviesdetails/Details';
 const SliderImage = (props) => {
   const { data } = props;
 
@@ -15,6 +15,8 @@ const SliderImage = (props) => {
     const parts = fullId.split('/');
     return parts[2];
   };
+
+ 
 
   return (
     <div className="sliderImage">
@@ -27,17 +29,18 @@ const SliderImage = (props) => {
         className="mySwiper"
       >
         {data.map((item) => (
-          <SwiperSlide key={extractId(item.id)}>
-            <Link to={`/data/${extractId(item.id)}`}>
+          <SwiperSlide key={extractId(item.id)} >
+            <NavLink to={`/data/${extractId(item.id)}`}>
               <ImageBox
-                url={item.image.url}
+                url={item.image?.url || ''}
                 name={item.title}
                 id={extractId(item.id)}
               />
-            </Link>
+            </NavLink>
           </SwiperSlide>
         ))}
       </Swiper>
+
     </div>
   );
 };

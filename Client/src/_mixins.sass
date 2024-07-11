@@ -1,0 +1,18 @@
+$mobali-small: 600px
+$tap-medium: 900px
+$laptop: 1200px
+
+@mixin respond-to($breakpoint)
+    @if $breakpoint == 'small'
+        @media (max-width: #{$mobali-small})
+        @content
+    @else if $breakpoint == 'medium'
+        @media (min-width: #{$mobali-small}) and (max-width: #{$tap-medium - 1px})
+        @content
+    @else if $breakpoint == 'large'
+        @media (min-width: #{$tap-medium}) and (max-width: #{$laptop - 1px})
+        @content
+
+    @else if $breakpoint == 'xlarge'
+        @media (min-width: #{$laptop})
+    

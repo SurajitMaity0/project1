@@ -1,0 +1,61 @@
+{
+    "characters": [
+        {
+            "id": 1,
+            "character_name": "Mickey Mouse",
+            "company_name": "Walt Disney Animation Studios",
+            "tv_channel_name": "Disney Channel",
+            "character_image_url": "https://imgs.search.brave.com/xlv0YtRwytNJDu4yx3l9mFUn2D_SvUwdEmwsRR38oeQ/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9mcmVl/cG5ndHJhbnNwYXJl/bnQuY29tL3dwLWNv/bnRlbnQvdXBsb2Fk/cy8yMDIzLzAzL01p/Y2tleS1Nb3VzZS1Q/bmctMzgucG5n"
+        },
+        {
+            "id": 2,
+            "character_name": "Woody",
+            "company_name": "Pixar Animation Studios",
+            "tv_channel_name": "Disney Channel",
+            "character_image_url": "https://imgs.search.brave.com/Tibz8r8d5XexGcbsqgj5YeCx2SLDx3pE2g8ItGNjS3k/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/cG5nYWxsLmNvbS93/cC1jb250ZW50L3Vw/bG9hZHMvMTQvV29v/ZHktUE5HLUltYWdl/LUZpbGUucG5n"
+        },
+        {
+            "id": 3,
+            "character_name": "Shrek",
+            "company_name": "DreamWorks Animation",
+            "tv_channel_name": "Nickelodeon",
+            "character_image_url": "https://imgs.search.brave.com/5PwyrFi-Xrc86J1QOUg9g1Df1jW_Gk6UrU9vEEBnimM/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/cGljbmcuY29tL3Vw/bG9hZC9zaHJlay9w/bmdfc2hyZWtfNzY1/ODAucG5n"
+        },
+        {
+            "id": 4,
+            "character_name": "Bugs Bunny",
+            "company_name": "Warner Bros. Animation",
+            "tv_channel_name": "Cartoon Network",
+            "character_image_url": "https://imgs.search.brave.com/SAcKwH2p5cpC_zdr0alWOGMDQlEn2jmVySbmBk8mOVE/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/cG5nYWxsLmNvbS93/cC1jb250ZW50L3Vw/bG9hZHMvMTQvQnVn/cy1CdW5ueS1QTkct/SEQtSW1hZ2UucG5n"
+        },
+        {
+            "id": 5,
+            "character_name": "Gru",
+            "company_name": "Illumination Entertainment",
+            "tv_channel_name": "Nickelodeon",
+            "character_image_url": "https://imgs.search.brave.com/j23MZLbfKvP3DF6-uE5T9g0us35K_YZOAacArYjfrmU/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/cG5nYWxsLmNvbS93/cC1jb250ZW50L3Vw/bG9hZHMvMTQvR3J1/LVBORy1DdXRvdXQu/cG5n"
+        },
+        {
+            "id": 6,
+            "character_name": "Scrat",
+            "company_name": "Blue Sky Studios",
+            "tv_channel_name": "Nickelodeon",
+            "character_image_url": "https://imgs.search.brave.com/PP7xAwFndYt0rSxjzGE2Qg0rUF80GfyunDVtleoGOGU/rs:fit:860:0:0:0/g:ce/aHR0cDovL2Fzc2V0/cy5zdGlja3BuZy5j/b20vaW1hZ2VzLzVl/ZDY4NTA4ZTllNzlk/MDAwNDkxMjMyYy5w/bmc"
+        },
+        {
+            "id": 7,
+            "character_name": "SpongeBob SquarePants",
+            "company_name": "Nickelodeon Animation Studio",
+            "tv_channel_name": "Nickelodeon",
+            "character_image_url": "https://imgs.search.brave.com/QyS7QyCUcoJ2zmuhp4GgdZY-NU0RlEmjfpw4TGBF0pI/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/cG5nYWxsLmNvbS93/cC1jb250ZW50L3Vw/bG9hZHMvMTMvU3Bv/bmdlYm9iLVNxdWFy/ZXBhbnRzLVBORy1J/bWFnZS1IRC5wbmc"
+        },
+        {
+            "id": 8,
+            "character_name": "Ben Tennyson",
+            "company_name": "Cartoon Network Studios",
+            "tv_channel_name": "Cartoon Network",
+            "character_image_url": "https://imgs.search.brave.com/3n0Q8AozcbT2bNmekziZfTbbXRPjHN4JPhlNfn8-dWI/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMtd2l4bXAtZWQz/MGE4NmI4YzRjYTg4/Nzc3MzU5NGMyLndp/eG1wLmNvbS9mLzNj/ZDc3MGIyLTNlNDkt/NDY3Mi05OWZiLTg0/ODNiOWRkOWJmMC9k/Znc4Njh2LTc5YzAz/ODZlLTE3Y2ItNDk5/ZS1iOGJkLTQyMTli/OWYyMWZiYy5wbmcv/djEvZmlsbC93Xzgw/MCxoXzEyMjIvYmVu/XzEwX3VhX2Jlbl90/ZW5ueXNvbl9yZW5k/ZXJfcG5nX2J5X3Nl/YW5zY3JlYXRpb25z/MV9kZnc4Njh2LWZ1/bGx2aWV3LnBuZz90/b2tlbj1leUowZVhB/aU9pSktWMVFpTENK/aGJHY2lPaUpJVXpJ/MU5pSjkuZXlKemRX/SWlPaUoxY200NllY/QndPamRsTUdReE9E/ZzVPREl5TmpRek56/TmhOV1l3WkRReE5X/VmhNR1F5Tm1Vd0lp/d2lhWE56SWpvaWRY/SnVPbUZ3Y0RvM1pU/QmtNVGc0T1RneU1q/WTBNemN6WVRWbU1H/UTBNVFZsWVRCa01q/WmxNQ0lzSW05aWFp/STZXMXQ3SW1obGFX/ZG9kQ0k2SWp3OU1U/SXlNaUlzSW5CaGRH/Z2lPaUpjTDJaY0x6/TmpaRGMzTUdJeUxU/TmxORGt0TkRZM01p/MDVPV1ppTFRnME9E/TmlPV1JrT1dKbU1G/d3ZaR1ozT0RZNGRp/MDNPV013TXpnMlpT/MHhOMk5pTFRRNU9X/VXRZamhpWkMwME1q/RTVZamxtTWpGbVlt/TXVjRzVuSWl3aWQy/bGtkR2dpT2lJOFBU/Z3dNQ0o5WFYwc0lt/RjFaQ0k2V3lKMWNt/NDZjMlZ5ZG1salpU/cHBiV0ZuWlM1dmNH/VnlZWFJwYjI1ekls/MTkucXl0bkt1aDQ1/U3NYaUZIYVBLVWxK/ZHNQTDZJV1RkbnBi/a1ZQRmRKWjItUQ"
+        }
+    ]
+    
+}

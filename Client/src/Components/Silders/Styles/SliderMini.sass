@@ -1,21 +1,24 @@
+
 .mini-box
     width: 100%
     height: 100%
+    overflow: hidden
+
+    
     img
         width: 100%
         padding: 1%
         height: 100%
         object-fit: fill
     .video-container
-        border: 2px solid #ce1212
+        
         width: 100%
         height: 100%
         display: none
         video
             width: 100%
-            border: 2px solid #12ce1b
             height: 100%
-            object-fit: fill
+            object-fit: cover
            
     &:hover
         img
@@ -29,9 +32,11 @@
 
 .slider-mini
     width: 100%
-    height: 25%
-  
-    margin-bottom: 1%
+    height: 20%
+    position: relative
+    margin-top: 10%
+    
+
     h2
         font-size: 1.4vw
         color: #000
@@ -39,15 +44,17 @@
         padding: 0.3% 2%
        
     .mini-slider
-
+        position: relative
         width: 100%
-        height: 73%
+        height:90%
+
         padding: 0.5%
         .slide
             border-radius: 5px
             width: 100%
             border: 1px solid #000
             height: 100%
+            padding: 1%
             background-color: #fff
             &:hover
                

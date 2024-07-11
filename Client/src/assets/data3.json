@@ -1,27 +1,27 @@
 {
     "movieData": {
         "contentDetails": {
-            "id": "/title/tt0441773/",
+            "id": "/title/tt21692408/",
             "title": {
                 "@type": "imdb.api.title.title",
-                "id": "/title/tt0441773/",
+                "id": "/title/tt21692408/",
                 "image": {
-                    "height": 2048,
-                    "id": "/title/tt0441773/images/rm3096332288",
-                    "url": "https://m.media-amazon.com/images/M/MV5BODJkZTZhMWItMDI3Yy00ZWZlLTk4NjQtOTI1ZjU5NjBjZTVjXkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_.jpg",
-                    "width": 1413
+                    "height": 5000,
+                    "id": "/title/tt21692408/images/rm3773712385",
+                    "url": "https://m.media-amazon.com/images/M/MV5BZDY0YzI0OTctYjVhYy00MTVhLWE0NTgtYTRmYTBmOTE3YTViXkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_.jpg",
+                    "width": 3158
                 },
-                "runningTimeInMinutes": 92,
-                "title": "Kung Fu Panda",
+                "runningTimeInMinutes": 94,
+                "title": "Kung Fu Panda 4",
                 "titleType": "movie",
-                "year": 2008
+                "year": 2024
             },
             "certificates": {
                 "US": [
                     {
                         "certificate": "PG",
-                        "certificateNumber": 44302,
-                        "ratingReason": "Rated PG for sequences of martial arts action",
+                        "certificateNumber": 54795,
+                        "ratingReason": "Rated PG for martial arts action/mild violence, scary images and some mild rude humor.",
                         "ratingsBody": "MPAA",
                         "country": "US"
                     }
@@ -29,9 +29,9 @@
             },
             "ratings": {
                 "canRate": true,
-                "rating": 7.6,
-                "ratingCount": 526567,
-                "topRank": 979
+                "rating": 6.3,
+                "ratingCount": 44353,
+                "topRank": 4238
             },
             "genres": [
                 "Animation",
@@ -41,49 +41,47 @@
                 "Family",
                 "Fantasy"
             ],
-            "releaseDate": "2008-06-06",
+            "releaseDate": "2024-03-08",
             "plotOutline": {
-                "id": "/title/tt0441773/plot/po6238528",
-                "text": "To everyone's surprise, including his own, Po, an overweight, clumsy panda, is chosen as protector of the Valley of Peace. His suitability will soon be tested as the valley's arch-enemy is on his way."
+                "id": "/title/tt21692408/plot/po6765526",
+                "text": "After Po is tapped to become the Spiritual Leader of the Valley of Peace, he needs to find and train a new Dragon Warrior, while a wicked sorceress plans to re-summon all the master villains whom Po has vanquished to the spirit realm."
             },
             "plotSummary": {
-                "author": "Anthony Pereyra {hypersonic91@yahoo.com}",
-                "id": "/title/tt0441773/plot/ps0283360",
-                "text": "It's the story about a lazy, irreverent slacker panda, named Po, who is the biggest fan of Kung Fu around...which doesn't exactly come in handy while working every day in his family's noodle shop. Unexpectedly chosen to fulfill an ancient prophecy, Po's dreams become reality when he joins the world of Kung Fu and studies alongside his idols, the legendary Furious Five -- Tigress, Crane, Mantis, Viper and Monkey -- under the leadership of their guru, Master Shifu. But before they know it, the vengeful and treacherous snow leopard Tai Lung is headed their way, and it's up to Po to defend everyone from the oncoming threat. Can he turn his dreams of becoming a Kung Fu master into reality? Po puts his heart - and his girth - into the task, and the unlikely hero ultimately finds that his greatest weaknesses turn out to be his greatest strengths."
+                "id": "/title/tt21692408/plot/ps7229840",
+                "text": "Po is gearing up to become the spiritual leader of his Valley of Peace, but also needs someone to take his place as Dragon Warrior. As such, he will train a new kung fu practitioner for the spot and will encounter a villain called the Chameleon who conjures villains from the past."
             }
         },
         "trailers": [
             {
-                "id": "vi330432793",
-                "contentType": "amzn1.imdb.video.contenttype.trailer",
-                "VeidoPlay": [
-                    {
-                        "url": "https://imdb-video.media-imdb.com/vi330432793/1434659607842-pgv4ql-1616202481994.mp4?Expires=1718964302&Signature=RI2QmR2Fr59Zrh8QdujDdvDPgxhwvbFZxNDXbvVE3g~ll4su0cGRkhQ6Kf79rkVOzf8G9aN2~qh7pm6evFmty-VcRQpCCQDygWiUpyWSWPg8ym0x5gQjZgicu8~kv~Js61vFEff6Q6rsiWv-NYroS6WFfAkegev0wwuou2vgXrVVmSgWPlBDhfRf5JBKyDLXYqMfedfvKPPfAzqkFjubNPZQuJQ8gRkXqm9omboHwKOUEjvUqLctE4ojicFDNdCjllEr5u1w0vIz3kFlq~25SS6qNO~aSOKZcmeFQoBf8hgD8PaUE40Sn9lzKKuYmF1QFHQ~aurwB-wlER~zWKbELw__&Key-Pair-Id=APKAIFLZBVQZ24NQH3KA",
-                        "videoMimeType": "MP4"
-                    },
-                    {
-                        "url": "https://imdb-video.media-imdb.com/vi330432793/1434659454657-dx9ykf-1616202481994.mp4?Expires=1718964302&Signature=XPoyt~U3UZfNxW~atIFx0z95sCA63QxYg3K9SHhlOdUWS4v~zET9E~UWyoXvLrgNKmVWyhX8dNgU6SXil0zDt977Dtu7JCYE~-T9K0t1kMZVBQL1ab7p51ow75ItV6TRgBvcADh7pDvbcXqo-2blFz5EVBUPeVyQ26Vm0~RqJT1zsihWu9Y1Xo1D4wZvZ7BFU7KJXop7F908N53Fdl6lJo6F1wkOCWBRwZiZ1a5GdtwJvWrrH~4THBfxaVTVgdMffY~C4Hf40PY05zjLmPRnTrEelDXZR7gpY0hDuURkfz59Yuf-7bevNbV7YpeA07i1sko7DJIegZn8W6lADKJZqQ__&Key-Pair-Id=APKAIFLZBVQZ24NQH3KA",
-                        "videoMimeType": "MP4"
-                    }
-                ]
+                "id": "vi4139632153",
+                "contentType": "amzn1.imdb.video.contenttype.trailer"
+            },
+            {
+                "id": "vi2399651609",
+                "contentType": "amzn1.imdb.video.contenttype.trailer"
+            },
+            {
+                "id": "vi4087399961",
+                "contentType": "amzn1.imdb.video.contenttype.trailer"
+            },
+            {
+                "id": "vi3490236185",
+                "contentType": "amzn1.imdb.video.contenttype.trailer"
             }
-            
         ],
-
         "images": [
             {
-                "id": "rm2508569344",
-                "url": "https://m.media-amazon.com/images/M/MV5BNDcxOTM0MDU2MV5BMl5BanBnXkFtZTcwMTIzMzA3NA@@._V1_.jpg"
+                "id": "rm4025370625",
+                "url": "https://m.media-amazon.com/images/M/MV5BNGM0OGEzZDgtMTVkMC00NGI1LWI1NjctODhkZmI4YmQ2NDU2XkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_.jpg"
             },
             {
-                "id": "rm3045440256",
-                "url": "https://m.media-amazon.com/images/M/MV5BMTQzNDAwOTk4Nl5BMl5BanBnXkFtZTcwOTgyMzA3NA@@._V1_.jpg"
+                "id": "rm3807266817",
+                "url": "https://m.media-amazon.com/images/M/MV5BNTczM2I4N2UtMmYwZS00ODFmLWI4N2ItM2RkZDk2YmQzZThjXkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_.jpg"
             },
             {
-                "id": "rm3028663040",
-                "url": "https://m.media-amazon.com/images/M/MV5BMTc1NDI2MDY3Ml5BMl5BanBnXkFtZTcwMDkyMzA3NA@@._V1_.jpg"
+                "id": "rm3790489601",
+                "url": "https://m.media-amazon.com/images/M/MV5BYzA1YWZmMjYtMTQ5MC00NmQwLWE1ZDktOGY5YzNkOGIwOTViXkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_.jpg"
             }
         ]
     }
 }
-

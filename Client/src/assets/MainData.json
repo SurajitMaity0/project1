@@ -1,5 +1,726 @@
 [
   {
+    "id": "/title/tt4729430/",
+    "image": {
+      "height": 2222,
+      "id": "/title/tt4729430/images/rm1843825409",
+      "url": "https://m.media-amazon.com/images/M/MV5BMWYwOThjM2ItZGYxNy00NTQwLWFlZWEtM2MzM2Q5MmY3NDU5XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg",
+      "width": 1500
+    },
+    "title": "Klaus",
+    "titleType": "movie",
+    "year": 2019
+  },
+
+  {
+    "id": "/title/tt5814534/",
+    "image": {
+      "height": 3000,
+      "id": "/title/tt5814534/images/rm3825243393",
+      "url": "https://m.media-amazon.com/images/M/MV5BNzg1MzM3OWUtNjgzZC00NjMzLWE1NzAtOThiMDgyMjhhZDBhXkEyXkFqcGdeQXVyODkzNTgxMDg@._V1_.jpg",
+      "width": 2025
+    },
+    "title": "Spies in Disguise",
+    "titleType": "movie",
+    "year": 2019
+  },
+  {
+    "id": "/title/tt6324278/",
+    "image": {
+      "height": 1200,
+      "id": "/title/tt6324278/images/rm2738072833",
+      "url": "https://m.media-amazon.com/images/M/MV5BNGNjNjY1NjYtNmYxNC00OGYxLWFiMDgtZTdjN2EzYTdkYzU3XkEyXkFqcGdeQXVyMTA4NjE0NjEy._V1_.jpg",
+      "width": 800
+    },
+    "title": "Abominable",
+    "titleType": "movie",
+    "year": 2019
+  },
+  {
+    "id": "/title/tt3915174/",
+    "image": {
+      "height": 1154,
+      "id": "/title/tt3915174/images/rm342562561",
+      "url": "https://m.media-amazon.com/images/M/MV5BNjMyMDBjMGUtNDUzZi00N2MwLTg1MjItZTk2MDE1OTZmNTYxXkEyXkFqcGdeQXVyMTQ5NjA0NDM0._V1_.jpg",
+      "width": 760
+    },
+    "title": "Puss in Boots: The Last Wish",
+    "titleType": "movie",
+    "year": 2022
+  },
+  {
+    "id": "/title/tt0448694/",
+    "image": {
+      "height": 3000,
+      "id": "/title/tt0448694/images/rm976961537",
+      "url": "https://m.media-amazon.com/images/M/MV5BMWZiZTc0NTktNzNmZC00M2M3LTkwMDMtZGU3Mzg4NWI0ZjdjXkEyXkFqcGdeQXVyNTgyNTA4MjM@._V1_.jpg",
+      "width": 2000
+    },
+    "title": "Puss in Boots",
+    "titleType": "movie",
+    "year": 2011
+  },
+  {
+    "id": "/title/tt3807034/",
+    "image": {
+      "height": 2560,
+      "id": "/title/tt3807034/images/rm2773020672",
+      "url": "https://m.media-amazon.com/images/M/MV5BNTU3MTI0NDE1M15BMl5BanBnXkFtZTgwMzU2ODI5NDE@._V1_.jpg",
+      "width": 1728
+    },
+    "title": "The Adventures of Puss in Boots",
+    "titleType": "tvSeries",
+    "year": 2015
+  },
+  {
+    "id": "/title/tt0202536/",
+    "image": {
+      "height": 839,
+      "id": "/title/tt0202536/images/rm1572870400",
+      "url": "https://m.media-amazon.com/images/M/MV5BM2U3ZGFkOTUtMzUzNC00YzVmLWFiZDktNmRkNmUyNWNhMDg4XkEyXkFqcGdeQXVyMjUyNDk2ODc@._V1_.jpg",
+      "width": 580
+    },
+    "title": "Puss in Boots",
+    "titleType": "movie",
+    "year": 1999
+  },
+  {
+    "id": "/title/tt0064714/",
+    "image": {
+      "height": 500,
+      "id": "/title/tt0064714/images/rm2946929152",
+      "url": "https://m.media-amazon.com/images/M/MV5BMjA1OTU4MDQ4NV5BMl5BanBnXkFtZTcwODcwOTIzMQ@@._V1_.jpg",
+      "width": 351
+    },
+    "title": "Puss in Boots",
+    "titleType": "movie",
+    "year": 1969
+  },
+  {
+    "id": "/title/tt0296161/",
+    "image": {
+      "height": 500,
+      "id": "/title/tt0296161/images/rm4236639744",
+      "url": "https://m.media-amazon.com/images/M/MV5BMjI5NDkwNDk1NV5BMl5BanBnXkFtZTgwNDAwNzE3MzE@._V1_.jpg",
+      "width": 375
+    },
+    "title": "Puss in Boots",
+    "titleType": "movie",
+    "year": 1993
+  },
+  {
+    "id": "/title/tt1227808/",
+    "image": {
+      "height": 780,
+      "id": "/title/tt1227808/images/rm1527617281",
+      "url": "https://m.media-amazon.com/images/M/MV5BNTU4ZWE4ZWItZWNkZi00NDQzLTliNmYtMWRmNjhkMjkzMGM2XkEyXkFqcGdeQXVyMTQ3Njg3MQ@@._V1_.jpg",
+      "width": 550
+    },
+    "title": "Adventures of Puss-in-Boots",
+    "titleType": "tvSeries",
+    "year": 1992
+  },
+  {
+    "id": "/title/tt10681860/",
+    "image": {
+      "height": 1500,
+      "id": "/title/tt10681860/images/rm527381761",
+      "url": "https://m.media-amazon.com/images/M/MV5BZDkyODI0MTgtMGUyMi00Y2ExLTg1NWQtZmFiZDE4ZmFiMDQ0XkEyXkFqcGdeQXVyMTA5ODEyNTc5._V1_.jpg",
+      "width": 1000
+    },
+    "title": "Puss in Boots Shorts",
+    "titleType": "tvSeries",
+    "year": 2014
+  },
+  {
+    "id": "/title/tt7979580/",
+    "image": {
+      "height": 2222,
+      "id": "/title/tt7979580/images/rm1959841025",
+      "url": "https://m.media-amazon.com/images/M/MV5BMjdkZjNjNDItYzc4MC00NTkxLTk1MWEtY2UyZjY5MjUwNDNkXkEyXkFqcGdeQXVyMTA1OTcyNDQ4._V1_.jpg",
+      "width": 1500
+    },
+    "title": "The Mitchells vs. the Machines",
+    "titleType": "movie",
+    "year": 2021
+  },
+  {
+    "id": "/title/tt2293640/",
+    "image": {
+      "height": 2048,
+      "id": "/title/tt2293640/images/rm2457270272",
+      "url": "https://m.media-amazon.com/images/M/MV5BODI4NzMyNjE0MF5BMl5BanBnXkFtZTgwMTcwNzI0MzE@._V1_.jpg",
+      "width": 1382
+    },
+    "title": "Minions",
+    "titleType": "movie",
+    "year": 2015
+  },
+  {
+    "id": "/title/tt5113044/",
+    "image": {
+      "height": 516,
+      "id": "/title/tt5113044/images/rm3633452801",
+      "url": "https://m.media-amazon.com/images/M/MV5BNDM3YWEwYTMtNmY3ZS00YzJiLWFlNWItOWFmNjY0YzA4ZDE3XkEyXkFqcGdeQXVyMTA3MDk2NDg2._V1_.jpg",
+      "width": 348
+    },
+    "title": "Minions: The Rise of Gru",
+    "titleType": "movie",
+    "year": 2022
+  },
+  {
+    "id": "/title/tt22184976/",
+    "image": {
+      "height": 420,
+      "id": "/title/tt22184976/images/rm3633644289",
+      "url": "https://m.media-amazon.com/images/M/MV5BODY5MjkyYmMtODQwZS00YTVjLWIyOGQtYzFmYjUyOGU2NzkwXkEyXkFqcGdeQXVyMjAzOTA0MTk@._V1_.jpg",
+      "width": 300
+    },
+    "title": "Minions & More 1",
+    "titleType": "movie",
+    "year": 2022
+  },
+  {
+    "id": "/title/tt23382644/",
+    "image": {
+      "height": 597,
+      "id": "/title/tt23382644/images/rm1454114049",
+      "url": "https://m.media-amazon.com/images/M/MV5BMGI5OWUwY2YtMmU5My00NTc2LTk1NzYtZDMyOTc4M2E5NWYwXkEyXkFqcGdeQXVyMTQ4NTcxNTI0._V1_.jpg",
+      "width": 426
+    },
+    "title": "Minions & More 2",
+    "titleType": "movie",
+    "year": 2022
+  },
+  {
+    "id": "/title/tt8097030/",
+    "image": {
+      "height": 2000,
+      "id": "/title/tt8097030/images/rm1685446657",
+      "url": "https://m.media-amazon.com/images/M/MV5BOWYxZDMxYWUtNjNiZC00MDE1LWI2Y2QtNWZhNDAyMGY5ZjVhXkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_.jpg",
+      "width": 1350
+    },
+    "title": "Turning Red",
+    "titleType": "movie",
+    "year": 2022
+  },
+  {
+    "id": "/title/tt16026664/",
+    "image": {
+      "height": 6000,
+      "id": "/title/tt16026664/images/rm423566081",
+      "url": "https://m.media-amazon.com/images/M/MV5BM2I1YjYzMjUtM2E4Ny00ZTk3LWExMDAtMTc4OTliMGM3MjBjXkEyXkFqcGdeQXVyMTM1MTE1NDMx._V1_.jpg",
+      "width": 4050
+    },
+    "title": "Embrace the Panda: Making Turning Red",
+    "titleType": "movie",
+    "year": 2022
+  },
+  {
+    "id": "/title/tt5109280/",
+    "image": {
+      "height": 1608,
+      "id": "/title/tt5109280/images/rm2414269697",
+      "url": "https://m.media-amazon.com/images/M/MV5BZWNiOTc4NGItNGY4YS00ZGNkLThkOWEtMDE2ODcxODEwNjkwXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg",
+      "width": 1085
+    },
+    "title": "Raya and the Last Dragon",
+    "titleType": "movie",
+    "year": 2021
+  },
+  {
+    "id": "/title/tt2953050/",
+    "image": {
+      "height": 3000,
+      "id": "/title/tt2953050/images/rm2541025281",
+      "url": "https://m.media-amazon.com/images/M/MV5BNjE5NzA4ZDctOTJkZi00NzM0LTkwOTYtMDI4MmNkMzIxODhkXkEyXkFqcGdeQXVyNjY1MTg4Mzc@._V1_.jpg",
+      "width": 2025
+    },
+    "title": "Encanto",
+    "titleType": "movie",
+    "year": 2021
+  },
+  {
+    "id": "/title/tt19175754/",
+    "image": {
+      "height": 750,
+      "id": "/title/tt19175754/images/rm911022337",
+      "url": "https://m.media-amazon.com/images/M/MV5BMjAwOWVlZGYtODYwMy00MGQzLTlkMWEtMmU5ZjQyOTMyMmI5XkEyXkFqcGdeQXVyMTA5ODEyNTc5._V1_.jpg",
+      "width": 500
+    },
+    "title": "Encanto Sing-Along",
+    "titleType": "movie",
+    "year": 2022
+  },
+  {
+    "id": "/title/tt12801262/",
+    "image": {
+      "height": 3000,
+      "id": "/title/tt12801262/images/rm3522740225",
+      "url": "https://m.media-amazon.com/images/M/MV5BZTQyNTU0MDktYTFkYi00ZjNhLWE2ODctMzBkM2U1ZTk3YTMzXkEyXkFqcGdeQXVyNTI4MzE4MDU@._V1_.jpg",
+      "width": 2025
+    },
+    "title": "Luca",
+    "titleType": "movie",
+    "year": 2021
+  },
+  {
+    "id": "/title/tt4970552/",
+    "image": {
+      "height": 1061,
+      "id": "/title/tt4970552/images/rm3790216704",
+      "url": "https://m.media-amazon.com/images/M/MV5BNjgwYjNlMWEtOTUwMS00ZWQyLWE2ZDAtNWZjZTgzNThkNzliXkEyXkFqcGdeQXVyNTI5NjIyMw@@._V1_.jpg",
+      "width": 750
+    },
+    "title": "Louis & Luca - The Big Cheese Race",
+    "titleType": "movie",
+    "year": 2015
+  },
+  {
+    "id": "/title/tt4964452/",
+    "image": {
+      "height": 2775,
+      "id": "/title/tt4964452/images/rm3659075584",
+      "url": "https://m.media-amazon.com/images/M/MV5BMTc3ZjQxZTktYzJmZS00YWMzLTliZWMtODBhYzU2YjNlZDU2XkEyXkFqcGdeQXVyNDMxNzYzNTM@._V1_.jpg",
+      "width": 2102
+    },
+    "title": "The Adventures of Tenali Raman",
+    "titleType": "tvSeries",
+    "year": 2003
+  },
+  {
+    "id": "/title/tt7670400/",
+    "image": {
+      "height": 450,
+      "id": "/title/tt7670400/images/rm608460288",
+      "url": "https://m.media-amazon.com/images/M/MV5BYzMxOTBmODgtMTVjNy00NmUxLTg3MTYtZWU1ZTdhYzQ4NDA1XkEyXkFqcGdeQXVyNzMyNjk4NDA@._V1_.jpg",
+      "width": 325
+    },
+    "title": "Gattu Battu",
+    "titleType": "tvSeries",
+    "year": 2017
+  },
+  {
+    "id": "/title/tt2258886/",
+    "image": {
+      "height": 4961,
+      "id": "/title/tt2258886/images/rm3209750272",
+      "url": "https://m.media-amazon.com/images/M/MV5BMTgwOTgwNDk4OV5BMl5BanBnXkFtZTgwMTY3NDY3NzE@._V1_.jpg",
+      "width": 3508
+    },
+    "title": "Roll No. 21",
+    "titleType": "tvSeries",
+    "year": 2010
+  },
+  {
+    "id": "/title/tt13854248/",
+    "image": {
+      "height": 1080,
+      "id": "/title/tt13854248/images/rm2812823297",
+      "url": "https://m.media-amazon.com/images/M/MV5BOGE2MDEyNDEtMTZmNi00Yjg3LTkxNGUtOTFmOTFhZGU2ZGM2XkEyXkFqcGdeQXVyNjcwMzExMzU@._V1_.jpg",
+      "width": 1080
+    },
+    "title": "The Legend of Hanuman",
+    "titleType": "tvSeries",
+    "year": 2021
+  },
+  {
+    "id": "/title/tt1169841/",
+    "image": {
+      "height": 755,
+      "id": "/title/tt1169841/images/rm2631418112",
+      "url": "https://m.media-amazon.com/images/M/MV5BNTE3ZmEzMTItOGZkZS00NzdiLTljMjEtZWU2MTBhYTgzYmY2XkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_.jpg",
+      "width": 522
+    },
+    "title": "Return of Hanuman",
+    "titleType": "movie",
+    "year": 2007
+  },
+  {
+    "id": "/title/tt0488836/",
+    "image": {
+      "height": 1513,
+      "id": "/title/tt0488836/images/rm496492800",
+      "url": "https://m.media-amazon.com/images/M/MV5BZmRiMDcwY2EtZDViMC00NWQ3LWE5ZGQtMjEwNGZkNGVjZjQzXkEyXkFqcGdeQXVyNDUzOTQ5MjY@._V1_.jpg",
+      "width": 1047
+    },
+    "title": "Hanuman",
+    "titleType": "movie",
+    "year": 2005
+  },
+  {
+    "id": "/title/tt6417854/",
+    "image": {
+      "height": 2158,
+      "id": "/title/tt6417854/images/rm2276749056",
+      "url": "https://m.media-amazon.com/images/M/MV5BNzMwN2ZhNDMtYWU4NS00MzM2LThkYmQtZmU0NWFhNDcwYzFiXkEyXkFqcGdeQXVyNjE1OTQ0NjA@._V1_.jpg",
+      "width": 1512
+    },
+    "title": "Chhota Bheem aur Hanuman",
+    "titleType": "movie",
+    "year": 2012
+  },
+  {
+    "id": "/title/tt4557478/",
+    "image": {
+      "height": 400,
+      "id": "/title/tt4557478/images/rm959650305",
+      "url": "https://m.media-amazon.com/images/M/MV5BOGYzMjVkZTUtNmNiZC00YjZiLWEyYWUtNjExNDFjNjhjY2EyXkEyXkFqcGdeQXVyMTIxODg4NTQ4._V1_.jpg",
+      "width": 400
+    },
+    "title": "The New Adventures of Hanuman",
+    "titleType": "tvSeries",
+    "year": 2009
+  },
+  {
+    "id": "/title/tt11633404/",
+    "image": {
+      "height": 449,
+      "id": "/title/tt11633404/images/rm2353170177",
+      "url": "https://m.media-amazon.com/images/M/MV5BOWVmZGMwNTgtZGMxOS00NGViLThmNjItYzUxZGU2NmYwMzVmXkEyXkFqcGdeQXVyMTEyNzMwNjU4._V1_.jpg",
+      "width": 800
+    },
+    "title": "Kahat Hanuman Jai Shri Ram",
+    "titleType": "tvSeries",
+    "year": 2020
+  },
+  {
+    "id": "/title/tt6941654/",
+    "image": {
+      "height": 1755,
+      "id": "/title/tt6941654/images/rm2956733184",
+      "url": "https://m.media-amazon.com/images/M/MV5BOTQ5MmEwNmEtZTJiMS00YWRjLTliMGUtNTAzYzU1Njk4ZWIxXkEyXkFqcGdeQXVyMTExNDQ2MTI@._V1_.jpg",
+      "width": 1407
+    },
+    "title": "Hanuman Da' Damdaar",
+    "titleType": "movie",
+    "year": 2017
+  },
+  {
+    "id": "/title/tt8430866/",
+    "image": {
+      "height": 960,
+      "id": "/title/tt8430866/images/rm1052525056",
+      "url": "https://m.media-amazon.com/images/M/MV5BYWRkZWE2M2EtOTU0NC00NjJkLTgwMGYtN2E5ZDBhMjgzM2YxXkEyXkFqcGdeQXVyNjYxNzY5MjE@._V1_.jpg",
+      "width": 679
+    },
+    "title": "Hanuman vs. Mahiravana",
+    "titleType": "movie",
+    "year": 2018
+  },
+  {
+    "id": "/title/tt16141960/",
+    "image": {
+      "height": 1280,
+      "id": "/title/tt16141960/images/rm766644481",
+      "url": "https://m.media-amazon.com/images/M/MV5BNTY5MDJkOTgtZjgyYi00ZDI3LTk5YmQtOTQzZGI5MTMyODQ5XkEyXkFqcGdeQXVyNjkyODEzOTM@._V1_.jpg",
+      "width": 720
+    },
+    "title": "Motu Patlu Kung Fu Kings Returns",
+    "titleType": "movie",
+    "year": 2021
+  },
+  {
+    "id": "/title/tt32253999/",
+    "image": {
+      "height": 667,
+      "id": "/title/tt32253999/images/rm643527425",
+      "url": "https://m.media-amazon.com/images/M/MV5BMWE0Zjc2NWYtOGI3MC00NmU2LThlZTktM2M4OGRhZmQyOGM5XkEyXkFqcGc@._V1_.jpg",
+      "width": 500
+    },
+    "title": "Motu Patlu & The Race to the Diamond Valley",
+    "titleType": "movie",
+    "year": 2024
+  },
+  {
+    "id": "/title/tt2649730/",
+    "image": {
+      "height": 838,
+      "id": "/title/tt2649730/images/rm972595968",
+      "url": "https://m.media-amazon.com/images/M/MV5BMjIwMjM4MDk2N15BMl5BanBnXkFtZTcwNDg5OTcwOQ@@._V1_.jpg",
+      "width": 584
+    },
+    "title": "Motu Patlu",
+    "titleType": "tvSeries",
+    "year": 2012
+  },
+  {
+    "id": "/title/tt16142116/",
+    "image": {
+      "height": 4962,
+      "id": "/title/tt16142116/images/rm2725318913",
+      "url": "https://m.media-amazon.com/images/M/MV5BMjIyMmM4MDktMTM1Ny00NjA3LTkyMjYtYmMzODQ2MzcyODM1XkEyXkFqcGdeQXVyNjkyODEzOTM@._V1_.jpg",
+      "width": 3507
+    },
+    "title": "Motu Patlu - The Invisible Plane",
+    "titleType": "movie",
+    "year": 2016
+  },
+  {
+    "id": "/title/tt6278732/",
+    "image": {
+      "height": 597,
+      "id": "/title/tt6278732/images/rm3522321920",
+      "url": "https://m.media-amazon.com/images/M/MV5BYjQ2M2EyYzMtMWQ1MC00ODMxLWFmZTAtYjBkYThkNjk4Y2YzXkEyXkFqcGdeQXVyNzMyNjk4NDA@._V1_.jpg",
+      "width": 426
+    },
+    "title": "Motu Patlu: King of Kings",
+    "titleType": "movie",
+    "year": 2016
+  },
+  {
+    "id": "/title/tt16141894/",
+    "image": {
+      "height": 4962,
+      "id": "/title/tt16141894/images/rm1370558721",
+      "url": "https://m.media-amazon.com/images/M/MV5BNmU3NWRjNWEtZTU5NC00MjZjLTlmZmItZDM0NTAzNWU3YmQ1XkEyXkFqcGdeQXVyNjkyODEzOTM@._V1_.jpg",
+      "width": 3507
+    },
+    "title": "Motu Patlu in Double Trouble",
+    "titleType": "movie",
+    "year": 2021
+  },
+  {
+    "id": "/title/tt2798620/",
+    "image": {
+      "height": 597,
+      "id": "/title/tt2798620/images/rm791460865",
+      "url": "https://m.media-amazon.com/images/M/MV5BZWZiOWUzNDgtMjlkMi00ZjFmLTk1OTgtMGEzMDE3YjVjNTYzXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_.jpg",
+      "width": 426
+    },
+    "title": "Chhota Bheem and the Curse of Damyaan",
+    "titleType": "movie",
+    "year": 2012
+  },
+  {
+    "id": "/title/tt6442670/",
+    "image": {
+      "height": 500,
+      "id": "/title/tt6442670/images/rm2830397184",
+      "url": "https://m.media-amazon.com/images/M/MV5BZTllOWE5ZjItMjgzNS00MGEyLThhNzAtZDk3MjU0OTcxNjY0XkEyXkFqcGdeQXVyNjE1OTQ0NjA@._V1_.jpg",
+      "width": 382
+    },
+    "title": "Chhota Bheem Master of Shaolin",
+    "titleType": "movie",
+    "year": 2011
+  },
+  {
+    "id": "/title/tt29114624/",
+    "image": {
+      "height": 2048,
+      "id": "/title/tt29114624/images/rm2981446657",
+      "url": "https://m.media-amazon.com/images/M/MV5BNTdjMDljYmQtYTEzMy00Mzk0LWJiYTAtN2IzODIwZDM4NTM2XkEyXkFqcGdeQXVyMTQ3Mzk2MDg4._V1_.jpg",
+      "width": 1462
+    },
+    "title": "Chhota Bheem and the Curse of Damyaan",
+    "titleType": "movie",
+    "year": 2024
+  },
+  {
+    "id": "/title/tt4171600/",
+    "image": {
+      "height": 640,
+      "id": "/title/tt4171600/images/rm670779905",
+      "url": "https://m.media-amazon.com/images/M/MV5BZThhYTNmMzEtYTJiNi00MWIwLTgxZjEtZDMwNmFiNjdjYzRhXkEyXkFqcGdeQXVyODAzNzAwOTU@._V1_.jpg",
+      "width": 480
+    },
+    "title": "Chhota Bheem in the Incan Adventure",
+    "titleType": "movie",
+    "year": 2013
+  },
+  {
+    "id": "/title/tt6417984/",
+    "image": {
+      "height": 1500,
+      "id": "/title/tt6417984/images/rm2991318273",
+      "url": "https://m.media-amazon.com/images/M/MV5BOTU5NWE1ZDYtNGVjYy00ZDA5LWE5MWYtNWNhNjQ0YzdiNTAwXkEyXkFqcGdeQXVyODAzNzAwOTU@._V1_.jpg",
+      "width": 1085
+    },
+    "title": "Chhota Bheem Krishna vs Zimbara",
+    "titleType": "movie",
+    "year": 2013
+  },
+  {
+    "id": "/title/tt6442758/",
+    "image": {
+      "height": 640,
+      "id": "/title/tt6442758/images/rm2504779009",
+      "url": "https://m.media-amazon.com/images/M/MV5BMzRmZTE0MmEtODM2Yi00ZjI2LTlhNTctNjg0MDhkMTAyMGVkXkEyXkFqcGdeQXVyODAzNzAwOTU@._V1_.jpg",
+      "width": 480
+    },
+    "title": "Chhota Bheem Paanch Ajoobe",
+    "titleType": "movie",
+    "year": 2014
+  },
+  {
+    "id": "/title/tt16235600/",
+    "image": {
+      "height": 500,
+      "id": "/title/tt16235600/images/rm1481368833",
+      "url": "https://m.media-amazon.com/images/M/MV5BODRmYTE4MzMtYmYwYS00OTdjLTlkMmYtNWJmNWFhM2U5YmFmXkEyXkFqcGdeQXVyODAzNzAwOTU@._V1_.jpg",
+      "width": 382
+    },
+    "title": "Chhota Bheem aur Krishna: Mayanagari",
+    "titleType": "movie",
+    "year": 2011
+  },
+  {
+    "id": "/title/tt6417868/",
+    "image": {
+      "height": 1080,
+      "id": "/title/tt6417868/images/rm599704321",
+      "url": "https://m.media-amazon.com/images/M/MV5BNzJiNDVjNDEtYmYwMi00NmRhLThmM2YtNTBhZTdlNmRlMThjXkEyXkFqcGdeQXVyMTI4ODExNjI3._V1_.jpg",
+      "width": 1920
+    },
+    "title": "Chhota Bheem Aur Mayavi Gorgan",
+    "titleType": "movie",
+    "year": 2014
+  },
+  {
+    "id": "/title/tt5212160/",
+    "image": {
+      "height": 1080,
+      "id": "/title/tt5212160/images/rm3214283008",
+      "url": "https://m.media-amazon.com/images/M/MV5BYmIxNmVhZjMtZWVlNy00MGQwLWJjY2EtOGI3YWUxNmQ4YjM5XkEyXkFqcGdeQXVyNjY1MTg4Mzc@._V1_.jpg",
+      "width": 1920
+    },
+    "title": "Chhota Bheem Himalayan Adventure",
+    "titleType": "movie",
+    "year": 2016
+  },
+  {
+    "id": "/title/tt3324810/",
+    "image": {
+      "height": 980,
+      "id": "/title/tt3324810/images/rm1730809344",
+      "url": "https://m.media-amazon.com/images/M/MV5BYzcwYjdhYTgtZDhjZS00NTgyLTg5ODktYjFmYjE3ZWNlYmE5XkEyXkFqcGdeQXVyNjg1ODAyNDg@._V1_.jpg",
+      "width": 685
+    },
+    "title": "Chhota Bheem and the Throne of Bali",
+    "titleType": "movie",
+    "year": 2013
+  },
+  {
+    "id": "/title/tt4570986/",
+    "image": {
+      "height": 597,
+      "id": "/title/tt4570986/images/rm2052955137",
+      "url": "https://m.media-amazon.com/images/M/MV5BMzAyMDQwMGYtMGNmNS00OWM4LTlmMTAtM2E5YjQ4Yjk1ZmEwXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_.jpg",
+      "width": 426
+    },
+    "title": "Chhota Bheem",
+    "titleType": "tvSeries",
+    "year": 2008
+  },
+  {
+    "id": "/title/tt6417978/",
+    "image": {
+      "height": 640,
+      "id": "/title/tt6417978/images/rm3326862593",
+      "url": "https://m.media-amazon.com/images/M/MV5BYzIzYTI0ZWUtN2ViZC00MTQ1LTg1MzktMTQ2NjBjZGY0OWZhXkEyXkFqcGdeQXVyODAzNzAwOTU@._V1_.jpg",
+      "width": 480
+    },
+    "title": "Chhota Bheem Ki Baazi",
+    "titleType": "movie",
+    "year": 2014
+  },
+  {
+    "id": "/title/tt6491030/",
+    "image": {
+      "height": 1200,
+      "id": "/title/tt6491030/images/rm87398657",
+      "url": "https://m.media-amazon.com/images/M/MV5BNDliYjY5ZGItNmQzNC00YTE4LWIwZmYtOTQyMjFhM2M3MzE3XkEyXkFqcGdeQXVyMTAzOTAxNjIw._V1_.jpg",
+      "width": 1600
+    },
+    "title": "Mighty Raju",
+    "titleType": "tvSeries",
+    "year": 2010
+  },
+  {
+    "id": "/title/tt3855406/",
+    "image": {
+      "height": 597,
+      "id": "/title/tt3855406/images/rm707640321",
+      "url": "https://m.media-amazon.com/images/M/MV5BM2NjODEzMTYtYTEzMC00YTBlLTljM2EtZjM4YTdkMWEzYzU1XkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_.jpg",
+      "width": 426
+    },
+    "title": "Mighty Raju Rio Calling",
+    "titleType": "movie",
+    "year": 2014
+  },
+  {
+    "id": "/title/tt6543086/",
+    "image": {
+      "height": 500,
+      "id": "/title/tt6543086/images/rm3220645120",
+      "url": "https://m.media-amazon.com/images/M/MV5BODlkN2VlZmItYzAzMC00NDA2LThmMzktMDM1NmVkOWZhNzU2XkEyXkFqcGdeQXVyNTM3MDMyMDQ@._V1_.jpg",
+      "width": 375
+    },
+    "title": "Mighty Raju",
+    "titleType": "movie",
+    "year": 2015
+  },
+  {
+    "id": "/title/tt6442622/",
+    "image": {
+      "height": 640,
+      "id": "/title/tt6442622/images/rm3853927681",
+      "url": "https://m.media-amazon.com/images/M/MV5BZWMzYzMyODItYTA3Ni00NGYzLThiODYtN2RlYWViNmQzMThmXkEyXkFqcGdeQXVyMTY1NjEyNzIw._V1_.jpg",
+      "width": 480
+    },
+    "title": "Chak De Mighty Raju",
+    "titleType": "movie",
+    "year": 2013
+  },
+  {
+    "id": "/title/tt6536544/",
+    "image": {
+      "height": 640,
+      "id": "/title/tt6536544/images/rm642573569",
+      "url": "https://m.media-amazon.com/images/M/MV5BODlkYzljYWMtN2U5NS00OWZiLWE2OTUtZTZkMTNiNzQ3NWE3XkEyXkFqcGdeQXVyODAzNzAwOTU@._V1_.jpg",
+      "width": 480
+    },
+    "title": "Mighty Raju vs Mighty Clone",
+    "titleType": "movie",
+    "year": 2013
+  },
+  {
+    "id": "/title/tt6516876/",
+    "image": {
+      "height": 678,
+      "id": "/title/tt6516876/images/rm895698177",
+      "url": "https://m.media-amazon.com/images/M/MV5BZjQ2NGZhZjQtM2U0OS00OWMzLWE4Y2EtMTNiYjI0YzRlNTAxXkEyXkFqcGdeQXVyMTY1NjEyNzIw._V1_.jpg",
+      "width": 452
+    },
+    "title": "Mighty Khiladi Raju",
+    "titleType": "movie",
+    "year": 2014
+  },
+  {
+    "id": "/title/tt6417594/",
+    "image": {
+      "height": 576,
+      "id": "/title/tt6417594/images/rm3149164288",
+      "url": "https://m.media-amazon.com/images/M/MV5BMjMwNWM1YWQtYWUwMi00NDk5LTgxMzUtMjFlNjZhMjk0ZTg3XkEyXkFqcGdeQXVyNjE1OTQ0NjA@._V1_.jpg",
+      "width": 1024
+    },
+    "title": "Chhota Bheem and Sky Dragon",
+    "titleType": "movie",
+    "year": 2015
+  },
+  {
+    "id": "/title/tt10288820/",
+    "image": {
+      "height": 2667,
+      "id": "/title/tt10288820/images/rm2236507392",
+      "url": "https://m.media-amazon.com/images/M/MV5BNjk4ODFkNGUtODA4Yi00ODNjLTg1ZWUtNmNhNzZkZDU3ZDhlXkEyXkFqcGdeQXVyMjIyNDYzMjA@._V1_.jpg",
+      "width": 2000
+    },
+    "title": "Chhota Bheem Kung Fu Dhamaka",
+    "titleType": "movie",
+    "year": 2019
+  },
+  {
     "id": "/title/tt21692408/",
     "image": {
       "height": 5000,
@@ -31,7 +752,7 @@
       "url": "https://m.media-amazon.com/images/M/MV5BMTUyNzgxNjg2M15BMl5BanBnXkFtZTgwMTY1NDI1NjE@._V1_.jpg",
       "width": 660
     },
-   
+
     "title": "Kung Fu Panda 3",
     "titleType": "movie",
     "year": 2016
@@ -44,7 +765,7 @@
       "url": "https://m.media-amazon.com/images/M/MV5BYzQ0ZWIxZjAtYWI3Yy00MGM0LWFjOGYtNzcyYThiOTA3ODI1XkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_.jpg",
       "width": 482
     },
-  
+    
     "title": "Kung Fu Panda 2",
     "titleType": "movie",
     "year": 2011
@@ -2168,7 +2889,7 @@
     "title": "Tom and Jerry in New York",
     "titleType": "tvSeries",
     "year": 2021
-  },  
+  },
   {
     "id": "/title/tt0168366/",
     "image": {

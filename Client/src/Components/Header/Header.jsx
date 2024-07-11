@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import axios from 'axios';
-import logo from '../../assets/logo123.png';
+import logo from '/logo123.png';
 import './Header.sass';
 import Singup from '../LogIN/Singup';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';

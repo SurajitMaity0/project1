@@ -3,7 +3,7 @@ import './Singup.sass'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebook, faGoogle, faXTwitter } from '@fortawesome/free-brands-svg-icons';
 import axios from 'axios';
-import logo from '../../assets/logo123.png'
+import logo from '../../../public/logo123.jpeg'
 
 
 const Singup = (props) => {

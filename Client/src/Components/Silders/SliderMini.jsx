@@ -1,5 +1,6 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './Styles/SliderMini.sass'
+
 
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -10,30 +11,33 @@ import 'swiper/css/pagination';
 
 
 
-// import required modules
-import { Pagination } from 'swiper/modules';
+
 import MiniBox from './MiniBox';
+import OpenPage from '../Moviesdetails/OpenPage';
 
 const SliderMini = (props) => {
-
+    const [openPage,setOpenPage] = useState(false);
     const { data } = props;
+    console.log("data caatagori", data);
+
+    const handelOpenPage = ()=>{
+        setOpenPage(true);
+    }
+
     return (
         <>
             <div className="slider-mini">
-                <h2>slider image</h2>
+                <h2></h2>
                 <Swiper
                     slidesPerView={7}
                     spaceBetween={10}
-                    pagination={{
-                        clickable: true,
-                    }}
-                    modules={[Pagination]}
+              
                     className="mySwiper mini-slider"
                 >
                     {data.map((item, index) => {
                         return (
-                            <SwiperSlide className='slide' key={item.id}>
-                                <MiniBox url={item.logo} name={item.name} veido_URl={item.video_url} />
+                            <SwiperSlide className='slide' key={item.id} onClick={handelOpenPage}>
+                                <MiniBox url={item.logo} name={item.name} veido_URl={item.veido_URl} />
                             </SwiperSlide>
                         )
 
@@ -41,6 +45,7 @@ const SliderMini = (props) => {
                     )}
                     
                 </Swiper>
+                {openPage && <OpenPage/>}
             </div>
 
         </>

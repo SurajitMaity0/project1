@@ -73,7 +73,9 @@ const Details = (props) => {
               <source src={videoData.VeidoPlay[1].url} type="video/mp4" />
             </video>
           )}
-          <img src={movieData.images[0].url} alt={contentDetails.title} />
+          {movieData.images[0] && (
+            <img src={movieData.images[0].url} alt={contentDetails.title} />
+          )}
         </div>
 
         <div className="titals">

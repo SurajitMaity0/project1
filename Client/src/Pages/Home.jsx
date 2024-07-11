@@ -2,17 +2,20 @@ import React, { useContext } from 'react';
 import './styles/Home.sass'
 import { Header, Hero, SliderMini, SliderImage, SliderVeido, Singup } from '../Components';
 import MainContext from '../Context/MainContext.js';
-import Details from '../Components/Moviesdetails/Details.jsx';
-import ImageBox from '../Components/Silders/ImageBox.jsx';
+
 import companyData from '../assets/catagori.json';
+
+import CharacterSlider from '../Components/Characters/CharacterSlider.jsx';
 const Home = () => {
 
   const {data} = useContext(MainContext);
+
   const tvSeries = [];
   const movies = [];
   const year1990 = [];
   const year2000 = [];
   data.map((i) => {
+    console.log(i.title);
     if(i.titleType === 'tvSeries'){
       tvSeries.push(i);
     }
@@ -33,6 +36,7 @@ const Home = () => {
     <>
       <div className='Home'>
           <Header/>
+          {/* <CharacterSlider/> */}
           <Hero/>
           <SliderMini data={channels}/>
           <SliderVeido/>
