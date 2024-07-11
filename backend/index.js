@@ -43,7 +43,7 @@ app.get('/data', async (req, res) => {
     method: 'GET',
     url: 'https://online-movie-database.p.rapidapi.com/title/v2/find',
     params: {
-      title: 'Tarzan',
+      title: 'Klaus ',
 
     },
     headers: {
