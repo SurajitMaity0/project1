@@ -12,11 +12,6 @@ app.use('/', (req, res) => {
   res.sendFile(path.join(__dirname, buildPath, 'index.html'));
 });
 
-
-app.get('/sign-in', (req, res) => {
-  res.send('This is Sign-in Page');
-});
-
 app.get('/data', async (req, res) => {
   const options = {
     method: 'GET',
@@ -48,6 +43,11 @@ app.get('/data', async (req, res) => {
   }
 }
 );
+
+const movieData = [];
+
+const apikey = "e1d35bcec6mshfd8ab498d42aa17p1b0badjsn547826a163db";
+const apihost = "online-movie-database.p.rapidapi.com";
 
 app.get('/data/:id', async (req, res) => {
   const { id } = req.params;
