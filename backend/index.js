@@ -1,8 +1,6 @@
 const express = require('express');
 const axios = require('axios');
 const path = require('path');
-const admin = require('./firebase-config');
-
 const app = express();
 require('dotenv').config();
 
