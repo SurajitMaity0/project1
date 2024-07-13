@@ -1,15 +1,17 @@
+@import '../../../_mixins'
 
 .HeroBox
-    width: 100%
+    width: 98%
     margin: 0 auto
     height: 90vh
-    
     overflow: hidden
     position: relative
     border-radius: 10px
-    border: 5px solid #5688
-    border: 5px solid #000
+
+    @include respond-to(small)
+        height: 70vh
     
+
     .bg-img
         width: 100%
         height: 100%
@@ -23,17 +25,45 @@
             object-fit: fill
             position: relative
             z-index: 3
+    .gr-bg
+        width: 100%
+        height: 35%
+        bottom: 0%
+        background: none
+        position: absolute
+        z-index: 100
+
+        @include respond-to(small)
+            height: 25%
+            background-image: linear-gradient(to top, #020231fd, #00000063)
+            bottom: 0%
+        
     .tital
         position: absolute
-        bottom:4%
-        left: 20%
-        border: 2px solid #fff
-        background-color: #ffffff8f
-        
+        top: 50%
+        left: 50%
+        transform: translate(-50%, 50%)
         width: 40%
         height: 30%
+        border-radius: 10px        
+        overflow: hidden
         z-index: 100
-  
+        @include respond-to(small)
+            width: 80%
+            height: 20%
+            top: 50%
+            left: 50%
+            transform: translate(-50%, 130%)
+        
+        .ti-bg
+            position: absolute
+            width: 100%
+            height: 100%
+            border-radius: 10px
+            background: linear-gradient(to bottom right, #000000100, #00000050)
+            backdrop-filter: blur(20px)
+            z-index: -1
+            
           
         .content-poster
             width: 25%
@@ -41,46 +71,47 @@
             float: left
             border-radius: 10px
             overflow: hidden
-
             img
                 width: 100%
                 height: 100%
                 object-fit: fill
         .content-text
             width: 75%
-
             height: 100%
             display: flex
             justify-content: space-between
             flex-flow: column wrap
-            
+            padding: 10px
+
             h1
-                
-                font-size: 2.5vw
+                font-size: 2rem
                 color: #fff
                 font-weight: bold
-                padding: 1%
-
+                text-align: center
+                @include respond-to(small)
+                    font-size: 5vw
            
             .cata
                 width: 100%
-
                 height:20%
                 display: flex
-                justify-content: space-around
+                justify-content: center
                 align-items: center
-                padding: 1%
-                gap: 1%
+                gap: 10px
                 text-align: center
                 p
-                    border-radius: 5px
-                    font-size: 1vw
-                    color: #000
-               
+                    border-radius: 2px
+                    font-size: 0.9rem
                     font-weight: bold
-                    padding: 1%
-                    border: 2px solid #000
+                    color: #fff
+                    padding: 5px 10px
+                    background-color: #00000063
                     cursor: pointer
+                    @include respond-to(small)
+                        font-size: 2vw
+                        padding: 0.5%
+                        color: #05ffff
+                    
                     &:hover
                         background-color: #000
                         color: #fff
@@ -88,13 +119,15 @@
             .description
                 width: 100%
                 height: 30%
-                color: #000
-                font-weight: bold
-                padding: 1%
-                font-size: 0.9vw
-           
+                color: #dedede
+                font-size: 1vw
+                text-align: center
                 
                 overflow: hidden
+                @include respond-to(small)
+                    font-size: 2vw
+                    padding: 0.5%
+                
             .open
                 
                 width: 100%
@@ -107,11 +140,15 @@
                     width: 15%
                     height: 95%
                     font-size: 1.6vw
-
+                    @include respond-to(small)
+                        font-size: 4vw
+                    
                 .play
                     width: 60%
                     height: 95%
                     font-size: 1.3vw
+                    @include respond-to(small)
+                        font-size: 4vw
                 
                 .donwlod
                     width: 15%
@@ -120,6 +157,8 @@
                     background-color: #fff
                     color: #000
                     font-size: 1.6vw
+                    @include respond-to(small)
+                        font-size: 4vw
                     
                 button
                     width: 100%
@@ -132,6 +171,11 @@
                     border: 2px solid #000
                     margin: 2%
                     cursor: pointer
+                    @include respond-to(small)
+                        font-size: 2vw
+                        padding: 0.5%
+                        border: none
+                    
                     &:hover
                         background-color: #000
                         color: #fff

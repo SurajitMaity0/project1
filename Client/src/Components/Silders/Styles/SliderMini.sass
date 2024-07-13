@@ -1,4 +1,4 @@
-
+@import '../../../_mixins'
 .mini-box
     width: 100%
     height: 100%
@@ -34,7 +34,10 @@
     width: 100%
     height: 20%
     position: relative
-    margin-top: 10%
+
+    @include respond-to(small)
+        height: 12%
+       
     
 
     h2
@@ -47,14 +50,13 @@
         position: relative
         width: 100%
         height:90%
-
-        padding: 0.5%
+        margin-top: 3%
+        padding: 1%
         .slide
             border-radius: 5px
             width: 100%
             border: 1px solid #000
             height: 100%
-            padding: 1%
             background-color: #fff
             &:hover
                

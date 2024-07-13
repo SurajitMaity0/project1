@@ -6,6 +6,7 @@ import MainContext from '../Context/MainContext.js';
 import companyData from '../assets/catagori.json';
 
 import CharacterSlider from '../Components/Characters/CharacterSlider.jsx';
+import Login from '../Components/LogIN/Login.jsx';
 const Home = () => {
 
   const {data} = useContext(MainContext);
@@ -35,20 +36,21 @@ const Home = () => {
     <>
       <div className='Home'>
           <Header/>
+          <Login/>
           {/* <CharacterSlider/> */}
           <Hero/>
           <SliderMini data={channels}/>
-          <SliderVeido/>
           <SliderImage data={tvSeries} />
           <SliderMini data={companies}/>
           <SliderImage data={movies} />
-          <SliderVeido/>
+     
           <SliderImage data={year1990} />
           <SliderImage data={year2000} />
-          <SliderVeido/>
+          <SliderMini data={companies}/>
           <SliderImage data={year1990} />
-          <SliderVeido/>
+        
           <SliderImage data={year2000} />
+          <SliderMini data={companies}/>
       
           
 

@@ -11,6 +11,8 @@ import './Styles/Hero.sass';
 // import required modules
 import { Pagination } from 'swiper/modules';
 import HeroBox from './HeroBox';
+import data from '../../assets/data3.json'
+
 const Hero = () => {
   return (
     <div className='Hero'>
@@ -21,15 +23,12 @@ const Hero = () => {
         modules={[Pagination]}
         className="mySwiper"
       >
-        <SwiperSlide><HeroBox/></SwiperSlide>
-        <SwiperSlide><HeroBox/></SwiperSlide>
-        <SwiperSlide><HeroBox/></SwiperSlide>
-        <SwiperSlide><HeroBox/></SwiperSlide>
-        <SwiperSlide><HeroBox/></SwiperSlide>
-        <SwiperSlide><HeroBox/></SwiperSlide>
-        <SwiperSlide><HeroBox/></SwiperSlide>
-        <SwiperSlide><HeroBox/></SwiperSlide>
-        <SwiperSlide><HeroBox/></SwiperSlide>
+        <SwiperSlide><HeroBox data1 = {data} /></SwiperSlide>
+        <SwiperSlide><HeroBox data1 = {data} /></SwiperSlide>
+        <SwiperSlide><HeroBox data1 = {data} /></SwiperSlide>
+        <SwiperSlide><HeroBox data1 = {data} /></SwiperSlide>
+        <SwiperSlide><HeroBox data1 = {data} /></SwiperSlide>
+        <SwiperSlide><HeroBox data1 = {data} /></SwiperSlide>
       </Swiper>
     </div>
   );

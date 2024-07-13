@@ -1,18 +1,29 @@
-$mobali-small: 600px
-$tap-medium: 900px
-$laptop: 1200px
+// _variables.scss
 
-@mixin respond-to($breakpoint)
-    @if $breakpoint == 'small'
-        @media (max-width: #{$mobali-small})
-        @content
-    @else if $breakpoint == 'medium'
-        @media (min-width: #{$mobali-small}) and (max-width: #{$tap-medium - 1px})
-        @content
-    @else if $breakpoint == 'large'
-        @media (min-width: #{$tap-medium}) and (max-width: #{$laptop - 1px})
-        @content
+$breakpoint-small: 576px
+$breakpoint-medium: 768px
+$breakpoint-large: 992px
+$breakpoint-xlarge: 1200px
 
-    @else if $breakpoint == 'xlarge'
-        @media (min-width: #{$laptop})
+// _mixins.scss
+
+@mixin respond-to($breakpoint) 
+  @if ($breakpoint == small )
+    @media (max-width: $breakpoint-small) 
+      @content
     
+  @else if ($breakpoint == medium )
+    @media (max-width: $breakpoint-medium) 
+      @content
+    
+  @else if ($breakpoint == large )
+    @media (max-width: $breakpoint-large) 
+      @content
+    
+  @else if ($breakpoint == xlarge )
+    @media (max-width: $breakpoint-xlarge) 
+      @content
+  
+    
+  
+

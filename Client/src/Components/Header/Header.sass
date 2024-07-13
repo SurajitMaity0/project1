@@ -1,28 +1,19 @@
 
-@media screen and (max-width:600px) 
-    header
-        background-color: #44e1d4
-       
-@media screen and (min-width: 600px) and (max-width: 900px) 
-    header
-        background-color: #263332
-@media screen and (min-width: 900px) and (max-width: 1200px)
-    header
-        background-color: #ff1100
-
-    
+@import '../../_mixins'
 
 header
     position: relative
-    padding: 0 1%
     width: 100%
-    height: 8vh
-    border: 1px solid #000
+    height: 60px
+    // border: 1px solid #000
     display: flex
     flex-flow: row wrap
     justify-content: space-between
     align-items: center
+    @include respond-to(small)
+        height: 7vh
 
+    
     .left-nav
         width: 50%
         height: 100%
@@ -43,7 +34,9 @@ header
         .logo
             width: 10%  
             height:100%
-          
+            @include respond-to(small)
+                width: 25%
+            
             
             img
                 width: 100%
@@ -58,7 +51,8 @@ header
             justify-content: space-between
             align-items: center
             gap: 5%
-    
+            @include respond-to(small)
+                display: none
          
             ul
                 list-style: none
@@ -74,6 +68,7 @@ header
                     padding: 2.5% 4%
                     border-radius:7px
                     color: white
+                    border: 1px solid #030101
                     text-decoration: none
                     &:hover
                         background-color: #fff
@@ -107,15 +102,27 @@ header
             display: flex
             border-radius: 50px
             background-color: #ff110054
+
+            @include respond-to(small)
+                width: 50%
+                height: 40%
+                display: none
+            
+
             .mic
                 width: 15%
                 height: 100%
                 cursor: pointer
                 font-size: 1.2vw
                 display: flex
+                
                 justify-content: center
                 color: #fff
                 align-items: center
+                @include respond-to(small)
+                    font-size: 2.5vw
+                    margin-left: 2%
+                
 
             input
                 width: 85%
@@ -125,6 +132,9 @@ header
                 font-size: 1.1vw
                 outline: none
                 height: 100%
+                
+                    
+                
         
             .search-buts
                 width: 15%
@@ -139,36 +149,58 @@ header
                 align-items: center
         
                 height: 100%
+                @include respond-to(small)
+                    font-size: 4vw
+                    margin-right: 5%
+                
+                    
+                
         .notifi
             width: 20%
             height: 100%
             display: flex
             justify-content: space-evenly
             align-items: center
-
+            gap: 20%
+            @include respond-to(small)
+                width: 50%
+            
             span
                 font-size: 1.5vw
                 color: var(--text-color-dark)
-               
                 cursor: pointer
+         
+                @include respond-to(small)
+                    font-size: 4.3vw
+                
+
+
         .profile
             width: 8%
             height: 98%
-   
+            margin-right: 1%
             display: flex
             justify-content: center
             align-items: center
             border-radius: 50%
             cursor: pointer
+          
             // porfile hove  user-name show
+            @include respond-to(small)
+                width: 20%
+                height: 80%
             &:hover
                 .user-name
                     display: block
-
-
-
             .user-icon
                 font-size: 2.5vw
+                @include respond-to(small)
+                    font-size: 6vw
+                   
+                
+
+      
+            
             
             .user-name
                 position: absolute

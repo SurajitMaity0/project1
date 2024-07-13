@@ -4,7 +4,7 @@ import logo from '/logo123.png';
 import './Header.sass';
 import Singup from '../LogIN/Singup';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBars, faHouse, faCirclePlay, faTv, faGamepad, faGlobe, faBell,faMicrophone, faCloudArrowDown, faCircleUser, faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons';
+import { faBars, faHouse, faCirclePlay, faTv, faGamepad,faHeart,faMicrophone, faCloudArrowDown, faCircleUser, faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons';
 import Search from './Search';
 
 const Header = () => {
@@ -62,8 +62,8 @@ const Header = () => {
           <Search/>
    
           <div className="notifi">
-            <span className='language'><FontAwesomeIcon icon={faGlobe} /></span>
-            <span className='bell'><FontAwesomeIcon icon={faBell} /></span>
+            <span className="search-icon1"><FontAwesomeIcon icon={faMagnifyingGlass} /></span>
+            <span className='bell'><FontAwesomeIcon icon={faHeart} /></span>
             <span className='donwlod'><FontAwesomeIcon icon={faCloudArrowDown} /></span>
           </div>
           <div className="profile" onClick={handelopen}>

@@ -11,20 +11,20 @@ app.use(cors());
 app.use(express.json());
 
 // create connection
-// const db = mysql.createConnection({
-//   host: 'localhost',
-//   user: 'root',
-//   password: 'maity0001',
-//   database: 'masti60'
-// });
+const db = mysql.createConnection({
+  host: 'localhost',
+  user: 'root',
+  password: 'maity0001',
+  database: 'masti60'
+});
 
 // connect to mysql
-// db.connect((err) => {
-//   if (err) {
-//     throw err;
-//   }
-//   console.log('MySql Connected...');
-// });
+db.connect((err) => {
+  if (err) {
+    throw err;
+  }
+  console.log('MySql Connected...');
+});
 
 const movieData = [];
 

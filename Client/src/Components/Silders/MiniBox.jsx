@@ -19,6 +19,8 @@ const MiniBox = (props) => {
       videoRef.current.pause();
 
     };
+  
+  
 
   return (
     <>
@@ -30,6 +32,7 @@ const MiniBox = (props) => {
              onMouseOver={handleMouseOver}
              onMouseOut={handleMouseOut}
             onDoubleClick={handleDoubleClick}
+            muted
               loop
           >
             <source src={pixar} type="video/mp4" />
