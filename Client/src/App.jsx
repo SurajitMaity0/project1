@@ -8,6 +8,9 @@ import { Routes, Route } from 'react-router-dom'
 import Details from './Components/Moviesdetails/Details'
 import ListPage from './Pages/ListPage'
 import SearchPage from './Pages/SearchPage'
+import SignInPage from './Pages/SignInPage'
+import SignUpPage from './Pages/SignUpPage'
+
 
 
 function App() {
@@ -16,14 +19,17 @@ function App() {
   return (
   
    <Routes>
-      <Route path='/' element={<Home/>}></Route>
+      <Route path='/' element={<SignInPage/>}></Route>
+      <Route path='/home' element={<Home/>}></Route>
       <Route path="/data/:id" element={<Details/>} />
       <Route path='/listpage' element={<ListPage/>}></Route>
       <Route path='/movie' element={<Movie/>}></Route>
       <Route path='/tvshow' element={<TvShow/>}></Route>
       <Route path='/game' element={<Game/>}></Route>
       <Route path='/search' element={<SearchPage/>}></Route>
-          
+      <Route path='/signup' element={<SignUpPage/>}></Route>
+      
+             
    </Routes>
   )
 }

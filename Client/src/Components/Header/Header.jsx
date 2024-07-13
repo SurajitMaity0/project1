@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import logo from '/logo123.png';
 import './Header.sass';
-import Singup from '../LogIN/Singup';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars, faHouse, faCirclePlay, faTv, faGamepad,faHeart,faMicrophone, faCloudArrowDown, faCircleUser, faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons';
 import Search from './Search';
@@ -72,11 +71,6 @@ const Header = () => {
           </div>
 
         </div>
-        {showSingup && <Singup handelClose={handelClose}/>}
-
-
-
-
       </header >
     </>
   );

@@ -1,12 +1,11 @@
 import React, { useContext } from 'react';
 import './styles/Home.sass'
-import { Header, Hero, SliderMini, SliderImage, SliderVeido, Singup } from '../Components';
+import { Header, Hero, SliderMini, SliderImage, SliderVeido } from '../Components';
 import MainContext from '../Context/MainContext.js';
 
 import companyData from '../assets/catagori.json';
 
 import CharacterSlider from '../Components/Characters/CharacterSlider.jsx';
-import Login from '../Components/LogIN/Login.jsx';
 const Home = () => {
 
   const {data} = useContext(MainContext);
@@ -36,7 +35,6 @@ const Home = () => {
     <>
       <div className='Home'>
           <Header/>
-          <Login/>
           {/* <CharacterSlider/> */}
           <Hero/>
           <SliderMini data={channels}/>

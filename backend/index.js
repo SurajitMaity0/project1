@@ -1,41 +1,22 @@
 const express = require('express');
 const axios = require('axios');
-const cors = require('cors');
+const path = require('path');
+const admin = require('./firebase-config');
+
 const app = express();
-const mysql = require('mysql');
 require('dotenv').config();
 
+// serve react pages
+const buildPath = '../client/dist';
+app.use(express.static(path.join(__dirname, buildPath)));
 
-// use cros
-app.use(cors());
-app.use(express.json());
-
-// create connection
-const db = mysql.createConnection({
-  host: 'localhost',
-  user: 'root',
-  password: 'maity0001',
-  database: 'masti60'
+app.use('/', (req, res) => {
+  res.sendFile(path.join(__dirname, buildPath, 'index.html'));
 });
 
-// connect to mysql
-db.connect((err) => {
-  if (err) {
-    throw err;
-  }
-  console.log('MySql Connected...');
-});
 
-const movieData = [];
-
-
-
-const apikey = "e1d35bcec6mshfd8ab498d42aa17p1b0badjsn547826a163db";
-const apihost = "online-movie-database.p.rapidapi.com";
-
-
-app.get('/', (req, res) => {
-  res.send('Hello World');
+app.get('/sign-in', (req, res) => {
+  res.send('This is Sign-in Page');
 });
 
 app.get('/data', async (req, res) => {
@@ -44,14 +25,12 @@ app.get('/data', async (req, res) => {
     url: 'https://online-movie-database.p.rapidapi.com/title/v2/find',
     params: {
       title: 'Klaus ',
-
     },
     headers: {
       'x-rapidapi-key': apikey,
       'x-rapidapi-host': apihost
     }
   };
-
 
   try {
     const response = await axios.request(options);
@@ -143,30 +122,6 @@ app.get('/veido/:id', async (req, res) => {
   }
 }
 );
-
-app.post('/user', (req, res) => {
-  const { firstName, lastName, email, password, confirmPassword } = req.body;
-  if (firstName === '' || lastName === '' || email === '' || password === '' || confirmPassword === '') {
-    return res.status(400).json({ msg: 'Please enter all fields' });
-  }
-
-  const sqlInsert = "INSERT INTO Users (firstName, lastName, email, password, confirmPassword) VALUES (?,?,?,?,?)";
-  db.query(sqlInsert, [firstName, lastName, email, password, confirmPassword], (err, result) => {
-    if (err) {
-      console.log(err);
-    }
-    console.log("resule", result);
-
-  }
-  );
-
-  res.send('Hello World');
-
-});
-
-
-
-
 
 
 app.listen(3000, () => {
