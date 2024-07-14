@@ -14,6 +14,7 @@ import HeroBox from './HeroBox';
 import data from '../../assets/data3.json'
 
 const Hero = () => {
+  console.log(data);
   return (
     <div className='Hero'>
       <Swiper
@@ -23,12 +24,18 @@ const Hero = () => {
         modules={[Pagination]}
         className="mySwiper"
       >
-        <SwiperSlide><HeroBox data1 = {data} /></SwiperSlide>
-        <SwiperSlide><HeroBox data1 = {data} /></SwiperSlide>
-        <SwiperSlide><HeroBox data1 = {data} /></SwiperSlide>
-        <SwiperSlide><HeroBox data1 = {data} /></SwiperSlide>
-        <SwiperSlide><HeroBox data1 = {data} /></SwiperSlide>
-        <SwiperSlide><HeroBox data1 = {data} /></SwiperSlide>
+        {data.map((item, index) => {
+          console.log("this is",item);
+          return (
+
+            <SwiperSlide key={index}>
+              <HeroBox data1={item} />
+            </SwiperSlide>
+          )
+
+        }
+        )}
+        
       </Swiper>
     </div>
   );

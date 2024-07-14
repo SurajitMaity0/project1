@@ -1,11 +1,12 @@
 import React from 'react'
 import './Styles/HeroBox.sass'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+
 import { faPlus, faCirclePlay, faCloudArrowDown } from '@fortawesome/free-solid-svg-icons'
 const HeroBox = (props) => {
-  const data = props.data1.movieData;
+  const { data1 } = props;
+  const data = data1.movieData;
 
-  
   const isSmallScreen = () => {
     if (window.innerWidth < 600) {
       console.log('small screen');
@@ -25,7 +26,9 @@ const HeroBox = (props) => {
 
   return (
     <>
-      <div className='HeroBox'>
+      
+
+        <div className='HeroBox'>
         <div className="bg-img">
           <img src={isSmallScreen() ? data.contentDetails.title.image.url : data.images[0].url} alt={data.contentDetails.title.title} />          
         </div>    
@@ -54,6 +57,7 @@ const HeroBox = (props) => {
           </div>
         </div>
       </div>  
+
     </>
   )
 }
