@@ -62,8 +62,8 @@ const Header = ({ user }) => {
    
           <div className="notifi">
             <span className="search-icon1"><FontAwesomeIcon icon={faMagnifyingGlass} /></span>
-            <span className='bell'><FontAwesomeIcon icon={faHeart} /></span>
-            <span className='donwlod'><FontAwesomeIcon icon={faCloudArrowDown} /></span>
+            {/* <span className='bell'><FontAwesomeIcon icon={faHeart} /></span>
+            <span className='donwlod'><FontAwesomeIcon icon={faCloudArrowDown} /></span> */}
           </div>
 
           <div className="profile" onClick={handelopen}>
