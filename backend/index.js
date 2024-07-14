@@ -7,7 +7,7 @@ const cors = require('cors');
 require('dotenv').config();
 
 // api key and host
-const apikey = "e1d35bcec6mshfd8ab498d42aa17p1b0badjsn547826a163db";
+const apikey = "4eb9dae5e1msh3dc0a4e6064bf43p19b7f8jsn52fa046e9ae6";
 const apihost = "online-movie-database.p.rapidapi.com";
 
 // // serve react pages
@@ -100,7 +100,7 @@ app.get('/data/:id', async (req, res) => {
   }
 });
 
-app.get('/veido/:id', async (req, res) => {
+app.get('/video/:id', async (req, res) => {
   const options = {
     method: 'GET',
     url: 'https://online-movie-database.p.rapidapi.com/title/v2/get-video-playback',
@@ -116,16 +116,16 @@ app.get('/veido/:id', async (req, res) => {
   try {
     const response = await axios.request(options);
     const data = response.data.data.video.playbackURLs;
-    const VeidoPlay = [];
+    const VideoPlay = [];
     data.map((i) => {
       if(i.videoMimeType === 'M3U8'){
         return;
       }
-      VeidoPlay.push({ url: i.url, videoMimeType:i.videoMimeType});
+      VideoPlay.push({ url: i.url, videoMimeType:i.videoMimeType});
 
         
     });
-    res.json({VeidoPlay});
+    res.json({VideoPlay});
   } catch (error) {
     console.error(error);
   }

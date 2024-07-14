@@ -4,6 +4,7 @@ import { Header,MoviesCard } from "../Components";
 
 import MainContext from '../Context/MainContext.js';
 import "./styles/SearchPage.sass";
+import MobileMenu from "../Components/MobileMenu/MobileMenu.jsx";
 const SearchPage = () => {
     const location = useLocation();
     const searchText = location.state?.searchText;
@@ -35,7 +36,10 @@ const SearchPage = () => {
                     )
                 })}
             </div>
-            
+            {
+                window.screen.width < 765 && <MobileMenu/>
+            }
+
         </section>
     )
 }

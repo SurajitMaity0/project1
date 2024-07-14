@@ -4,6 +4,7 @@ import { useParams } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faX } from '@fortawesome/free-solid-svg-icons';
 import axios from 'axios';
+import Loader from '../Loader/Loader';
 
 const Details = (props) => {
   const { close } = props;
@@ -32,7 +33,7 @@ const Details = (props) => {
   useEffect(() => {
     const fetchVideoData = async (trailerId) => {
       try {
-        const response = await axios.get(`http://localhost:3000/veido/${trailerId}`);
+        const response = await axios.get(`http://localhost:3000/video/${trailerId}`);
         setVideoData(response.data);
       } catch (error) {
         setError(error);
@@ -46,7 +47,11 @@ const Details = (props) => {
   }, [data]);
 
   if (loading) {
-    return <div>Loading...</div>;
+    return (
+      <div className='loader-container'>
+        <Loader />
+      </div>
+    )
   }
 
   if (error) {
@@ -68,15 +73,14 @@ const Details = (props) => {
 
       <div className="box1">
         <div className="box-bg">
-          {videoData && videoData.VeidoPlay && videoData.VeidoPlay[1] && (
-            <video className='videoPlay' autoPlay controls>
-              <source src={videoData.VeidoPlay[1].url} type="video/mp4" />
+          {videoData && videoData.VideoPlay && videoData.VideoPlay[1] && (
+            <video className='VideoPlay' autoPlay controls>
+              <source src={videoData.VideoPlay[1].url} type="video/mp4" />
             </video>
           )}
-          {movieData.images[0] && (
-            <img src={movieData.images[0].url} alt={contentDetails.title} />
-          )}
+          
         </div>
+      </div>
 
         <div className="titals">
           <div className="tital-img">
@@ -109,7 +113,6 @@ const Details = (props) => {
             </div>
           </div>
         </div>
-      </div>
     </div>
   );
 };

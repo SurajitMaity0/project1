@@ -3,29 +3,29 @@ import { Link, useNavigate } from 'react-router-dom';
 import logo from '/logo123.png';
 import './Header.sass';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBars, faHouse, faCirclePlay, faTv, faGamepad,faHeart, faCloudArrowDown, faCircleUser, faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons';
+import { faBars, faHouse, faCirclePlay, faTv, faGamepad, faHeart, faCloudArrowDown, faCircleUser, faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons';
 import Search from './Search';
 import { UserAuth } from '../../Context/AuthContext';
 
-const Header = ({ user }) => {  
+const Header = ({ user }) => {
   const [isOpen, setIsOpen] = useState(false);
   const [isSearchIcon, setIsSearchIcon] = useState(false);
   const toggleUserDetails = () => {
     setIsOpen(!isOpen);
   }
-  
+
   const handelClickSeachIcon = () => {
     setIsSearchIcon(!isSearchIcon);
 
   }
 
   const navigate = useNavigate();
-  const {logOut} = UserAuth();
+  const { logOut } = UserAuth();
   const handleSignOut = () => {
-    try{
+    try {
       logOut();
       navigate('/');
-    }catch(error){
+    } catch (error) {
       console.log(error.message);
     }
   }
@@ -38,7 +38,9 @@ const Header = ({ user }) => {
             <FontAwesomeIcon icon={faBars} />
           </div>
           <div className="logo">
-            <img src={logo} alt="masti 60" />
+            <Link to='/home'>
+              <img src={logo} alt="masti 60" />
+            </Link>
           </div>
           <div className="nav">
             <ul>
@@ -69,18 +71,18 @@ const Header = ({ user }) => {
             </ul>
           </div>
         </div>
-   
+
         <div className="right-nav">
-        
-            {
-              window.screen.width < 600 ? (isSearchIcon && <Search/>) : (<Search />)
-            }
+
+          {
+            window.screen.width < 600 ? (isSearchIcon && <Search />) : (<Search />)
+          }
 
           <div className="notifi">
             <span className="search-icon1" onClick={handelClickSeachIcon}><FontAwesomeIcon icon={faMagnifyingGlass} /></span>
           </div>
 
-          {isOpen &&           
+          {isOpen &&
             <div className='user-details'>
               <div className="user-name">Email: {user?.email}</div>
               <div className='favorites'>

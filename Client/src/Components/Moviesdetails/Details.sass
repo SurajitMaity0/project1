@@ -1,60 +1,68 @@
+@import '../../_mixins.sass'
+.loader-container
+    position: fixed
+    width: 100%
+    height: 100vh
+    display: flex
+    justify-content: center
+    align-items: center
+    background: black
+
 .details
     position: relative
     z-index: 1000
-    width: 98%
+    width: 95%
     margin: 0 auto
+    margin-top: 10px
     height: 150vh
     border-radius: 20px 
     background-color: var(--bg-color-dark)
     overflow: hidden
-    // .close
-    //     position: absolute
-    //     top: 2%
-    //     right: 2%
-    //     color: var(--text-color-light)
-    //     font-size: 2vw
-    //     z-index: 100
-    //     cursor: pointer
+    display: flex
+    align-items: center
+    flex-direction: column
+    
     .box1
-        width: 100%
-        height: 80vh
-
-        .box-bg
+        width: 80%
+       
+        display: flex
+        justify-content: center
+        align-items: center
+        margin-bottom: 20px
+        @include respond-to(small)
             width: 100%
-            height: 100%
-            .videoPlay
-                width: 100%
-                height: 55%      
-                position: absolute
-                visibility: hidden
-               
-            img
-                width: 100%
-                height: 100%
-                object-fit: fill
-            &:hover
-                img
-                    visibility: hidden
-                .videoPlay
-                    visibility: visible
+            height: 50vh
+        
+        
+    video
+        width: 100%
+        object-fit: fill
                 
     .titals
-        margin-top: 2% 
         width: 100%
         height: 30vh
-        position: absolute
-        gap: 2%
+        gap: 30px
         display: flex
         justify-content: flex-start
         margin-left: 5%
         align-items: center
-
         z-index: 100
      
         background: linear-gradient(0deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.619) 100%) 
+        @include respond-to(small)
+            width: 100%
+            height: 110px
+            
+           
+            
+        
         .tital-img
             width:15%
             height: 100%
+            @include respond-to(small)
+                width: 20%
+                height: 100%
+            
             img
                 width: 100%
                 height: 100%
@@ -68,6 +76,9 @@
                 font-size: 2vw
                 font-weight: 600
                 padding: 1%
+                @include respond-to(small)
+                    font-size: 0.7rem
+                
                 
             .genres
                
@@ -77,7 +88,7 @@
                 display: flex
                 justify-content: center
                 align-items: center
-
+                    
                 ul
                     display: flex
                     list-style: none
@@ -95,12 +106,20 @@
                         color: var(--text-color-light)
                         font-size: 1.2vw
                         font-weight: 600
+                        @include respond-to($breakpoint: small)
+                            font-size: 0.6rem
+                        
             .pra
                 width: 100%
                 height: 35%
                 color: var(--text-color-light)
                 overflow: hidden
                 padding: 1%
+                @include respond-to(small)
+                    font-size: 0.5rem
+                   
+                    overflow: auto
+                
             .buttons
                 width: 100%
                 height: 20%
@@ -108,6 +127,10 @@
                 justify-content: flex-start
                 align-items: center
                 gap: 2%
+                @include respond-to(small)
+                    gap: 5%
+                    height: 15%
+                
                 button
                     width: 20%
                     height: 100%
@@ -117,7 +140,11 @@
                     font-weight: 600
                     border: none
                     cursor: pointer
-                    transition: 0.5s
+                    transition: 0.5
+                    @include respond-to(small)
+                        font-size: 0.5rem
+                        width: 30%
+                    
                     &:hover
                         background-color: var(--text-color-light)
                         color: var(--primary-color)

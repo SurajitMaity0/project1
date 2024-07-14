@@ -1,8 +1,11 @@
-import React, { useState } from 'react'
+import React, { useContext, useState } from 'react'
 import './Styles/HeroBox.sass'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-
 import { faPlus, faCirclePlay, faCloudArrowDown } from '@fortawesome/free-solid-svg-icons'
+import VideoModal from './VideoModal'
+import MainContext from '../../Context/MainContext'
+import axios from 'axios';
+
 const HeroBox = (props) => {
   const { data1 } = props;
   const data = data1.movieData;
@@ -20,17 +23,33 @@ const HeroBox = (props) => {
     }
   }
 
+  const { setIsVideoModalOpen, setVideoUrl } = useContext(MainContext);
+  const openVideoModal = async () => {
+    const videoId = data.trailers[0].id;
+    console.log(videoId);
+    setIsVideoModalOpen(true);
+    
+    try{
+      const response = await axios.get(`http://localhost:3000/video/${videoId}`);
+      const url = response.data.VideoPlay[1].url;
+      console.log(url);
+      setVideoUrl(url);
+    }catch(err){
+      console.log(err.message);
+    }
+     // fetch the video url and set
+  } 
+
   return (
     <>
-      
-
+        
         <div className='HeroBox'>
-        <div className="bg-img">
-          <img src={isSmallScreen() ? data.contentDetails.title.image.url : data.images[0].url} alt={data.contentDetails.title.title} />          
-        </div>    
-        <div className="gr-bg">
-          {/* this is for titale gradiant banckground  */}
-        </div>
+          <div className="bg-img">
+            <img src={isSmallScreen() ? data.contentDetails.title.image.url : data.images[0].url} alt={data.contentDetails.title.title} />          
+          </div>
+          <div className="gr-bg">
+            {/* this is for titale gradiant banckground  */}
+          </div>
         <div className="tital">
           <div className="ti-bg"></div>
           <div className="content-poster">
@@ -47,7 +66,9 @@ const HeroBox = (props) => {
             <p className="description">{data.contentDetails.plotOutline.text}</p>
             <div className="open">
               <button className='save'><FontAwesomeIcon icon={faPlus} /></button>
-              <button className='play'><span><FontAwesomeIcon icon={faCirclePlay} /></span> Play Now</button>
+              <button className='play' onClick={openVideoModal}>
+                <FontAwesomeIcon icon={faCirclePlay} /> Play Now
+              </button>
               <button className='donwlod'><FontAwesomeIcon icon={faCloudArrowDown} /></button>
             </div>
           </div>

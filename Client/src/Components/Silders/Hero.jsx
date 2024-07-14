@@ -15,7 +15,6 @@ import HeroBox from './HeroBox';
 import data from '../../assets/data3.json'
 
 const Hero = () => {
-
   return (
     <div className='Hero'>
       <Swiper
@@ -27,7 +26,6 @@ const Hero = () => {
         className="mySwiper"
       >
         {data.map((item, index) => {
-   
           return (
 
             <SwiperSlide key={index}>
