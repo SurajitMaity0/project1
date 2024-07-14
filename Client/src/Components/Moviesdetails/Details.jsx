@@ -32,7 +32,7 @@ const Details = (props) => {
   useEffect(() => {
     const fetchVideoData = async (trailerId) => {
       try {
-        const response = await axios.get(`http://localhost:3000/veido/${trailerId}`);
+        const response = await axios.get(`http://localhost:3000/video/${trailerId}`);
         setVideoData(response.data);
       } catch (error) {
         setError(error);
@@ -68,9 +68,9 @@ const Details = (props) => {
 
       <div className="box1">
         <div className="box-bg">
-          {videoData && videoData.VeidoPlay && videoData.VeidoPlay[1] && (
-            <video className='videoPlay' autoPlay controls>
-              <source src={videoData.VeidoPlay[1].url} type="video/mp4" />
+          {videoData && videoData.VideoPlay && videoData.VideoPlay[1] && (
+            <video className='VideoPlay' autoPlay controls>
+              <source src={videoData.VideoPlay[1].url} type="video/mp4" />
             </video>
           )}
           {movieData.images[0] && (

@@ -15,7 +15,7 @@ const ErrorPage = () => {
                     <div className="bar"></div>
                     The page you are looking for could not be found
                 </div>
-                <button className="go-back-btn" onClick={()=> navigate(-1)}>Go Back</button>
+                <button className="go-back-btn" onClick={()=> navigate('/home')}>Go to Home</button>
             </div>
         </section>
     )

@@ -5,10 +5,11 @@ import MainContext from '../Context/MainContext.js';
 
 import companyData from '../assets/catagori.json';
 import { UserAuth } from '../Context/AuthContext.js';
+import VideoModal from '../Components/Silders/VideoModal.jsx';
 
 const Home = () => {
 
-  const {data} = useContext(MainContext);
+  const {data, isVideoModalOpen} = useContext(MainContext);
   const tvSeries = [];
   const movies = [];
   const newRelese = [];
@@ -37,12 +38,11 @@ const Home = () => {
   
   // comapany data desturcher
   const {channels,companies} = companyData;
-  
-  
 
   return (
     <>
       <div className='Home'>
+          { isVideoModalOpen && <VideoModal/>}
           <Header user={user} />
           {/* <CharacterSlider/> */}
           <Hero/>
