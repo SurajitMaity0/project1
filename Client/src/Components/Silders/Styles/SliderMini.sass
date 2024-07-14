@@ -32,25 +32,29 @@
 
 .slider-mini
     width: 100%
-    height: 20%
+    height: 25%
     position: relative
-
+    margin-top: 20px
     @include respond-to(small)
         height: 12%
        
     
 
     h2
-        font-size: 1.4vw
+
+        font-size: 1.4rem
         color: #000
         font-weight: bold
-        padding: 0.3% 2%
-       
+        padding-left: 50px
+        @include respond-to(small)
+            font-size: 1rem
+            padding-left: 20px
+        
     .mini-slider
         position: relative
         width: 100%
-        height:90%
-        margin-top: 3%
+        height:80%
+   
         padding: 1%
         .slide
             border-radius: 5px

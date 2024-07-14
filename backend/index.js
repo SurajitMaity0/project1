@@ -4,6 +4,10 @@ const path = require('path');
 const app = express();
 require('dotenv').config();
 
+// api key and host
+const apikey = process.env.apikey;
+const apihost = process.env.apihost;
+
 // serve react pages
 const buildPath = '../client/dist';
 app.use(express.static(path.join(__dirname, buildPath)));

@@ -9,11 +9,12 @@ import CharacterSlider from '../Components/Characters/CharacterSlider.jsx';
 const Home = () => {
 
   const {data} = useContext(MainContext);
-
+  console.log(data);
   const tvSeries = [];
   const movies = [];
-  const year1990 = [];
-  const year2000 = [];
+  const newRelese = [];
+  const year2021 = [];
+  const year2019 = [];
   data.map((i) => {
     if(i.titleType === 'tvSeries'){
       tvSeries.push(i);
@@ -21,11 +22,14 @@ const Home = () => {
     if(i.titleType === 'movie'){
       movies.push(i);
     }
-    if(i.year >= 1500 && i.year <= 1990){
-      year1990.push(i);
+    if(i.year >= 2024 && i.year <= 2025){
+      newRelese.push(i);
     }
-    if(i.year >= 1990 && i.year <= 2000){
-      year2000.push(i);
+    if(i.year >= 2021 && i.year <= 2023){
+      year2021.push(i);
+    }
+    if(i.year >= 2019 && i.year <= 2020){
+      year2019.push(i);
     }
   });
 
@@ -37,18 +41,12 @@ const Home = () => {
           <Header/>
           {/* <CharacterSlider/> */}
           <Hero/>
-          <SliderMini data={channels}/>
-          <SliderImage data={tvSeries} />
-          <SliderMini data={companies}/>
-          <SliderImage data={movies} />
-     
-          <SliderImage data={year1990} />
-          <SliderImage data={year2000} />
-          <SliderMini data={companies}/>
-          <SliderImage data={year1990} />
-        
-          <SliderImage data={year2000} />
-          <SliderMini data={companies}/>
+          <SliderMini data={channels} tital= "TV Channels"/>
+          <SliderImage data={newRelese} tital = "Latest Releases" />
+          <SliderMini data={companies} tital="Animation  Studios"/>
+          <SliderImage data={year2021} tital = "Popular shows" />
+          <SliderImage data={year2019} tital = "Top rated" />
+          
       
           
 
