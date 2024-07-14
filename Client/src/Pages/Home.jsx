@@ -9,7 +9,6 @@ import { UserAuth } from '../Context/AuthContext.js';
 const Home = () => {
 
   const {data} = useContext(MainContext);
-  console.log(data);
   const tvSeries = [];
   const movies = [];
   const newRelese = [];
@@ -33,10 +32,13 @@ const Home = () => {
     }
   });
 
-    // comapany data desturcher
-    const {channels,companies} = companyData;
-
-    const { user, logout } = UserAuth();
+  const {user} = UserAuth();
+  
+  
+  // comapany data desturcher
+  const {channels,companies} = companyData;
+  
+  
 
   return (
     <>

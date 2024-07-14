@@ -88,6 +88,7 @@ header
 
     // right nav
     .right-nav
+        position: relative
         width: 50%
         height: 100%
         display: flex
@@ -143,15 +144,53 @@ header
                     margin-right: 5%
 
         .search-icon1
-            display: none    
+            display: none
+
+        .user-details
+            display: flex
+            flex-direction: column
+            gap: 10px
+            position: absolute
+            top: 70px
+            right: 20px
+            min-width: 240px
+            padding: 10px
+            font-size: 1rem
+            border: 2px solid black
+            outline: 2px solid white
+            border-radius: 10px
+            background: white
+            z-index: 10
+
+            .user-name
+                font-weight: bold
+                margin-bottom: 10px
+
+            .favorites, .downloads
+                width: 100%
+                display: flex
+                gap: 10px
+                cursor: pointer
+                &:hover
+                    text-decoration: underline
+            
+            .signout-btn
+                background: black
+                color: white
+                font-size: 1rem
+                padding: 10px 10px
+                border-radius: 10px
+                cursor: pointer
+                transition: 200ms
+
+                &:hover
+                    background: white
+                    color: black
+        
         .profile
             width: 40px
             height: 40px
-
             .user-icon
                 font-size: 2rem
-            
-            .user-name
-                position: absolute
-                font-size: 1.2vw
-                z-index: 10
+                cursor: pointer
+                
