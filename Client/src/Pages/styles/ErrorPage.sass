@@ -1,0 +1,49 @@
+.error-page
+    width: 100%
+    min-height: 100vh
+    display: flex
+    background-color: #03294e
+
+    .left
+        width: 50%
+        background-color: #03294e
+        position: relative
+        img
+            max-width: 500px
+            position: absolute
+            right: 40px
+            top: 50%
+            transform: translateY(-50%)
+
+    .right
+        width: 50%
+        display: flex
+        flex-direction: column
+        justify-content: center
+        color: white
+
+        .four-zero-four
+            font-size: 8rem
+            font-weight: bold
+            margin-bottom: 36px
+
+        .error-message
+            font-size: 1.2rem
+            margin-bottom: 40px
+            .bar
+                width: 64px
+                height: 4px
+                background: #009788
+                margin-bottom: 20px
+
+        .go-back-btn
+            width: 200px
+            background: #009788
+            color: white
+            font-size: 1.2rem
+            padding: 8px 10px
+            border: none
+            outline: none
+            cursor: pointer
+            &:hover
+                background: #00b3a1

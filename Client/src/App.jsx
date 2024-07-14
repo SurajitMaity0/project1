@@ -10,6 +10,7 @@ import ListPage from './Pages/ListPage'
 import SearchPage from './Pages/SearchPage'
 import SignInPage from './Pages/SignInPage'
 import SignUpPage from './Pages/SignUpPage'
+import ErrorPage from './Pages/ErrorPage'
 import { AuthContextProvider } from './Context/AuthContextProvider'
 import ProtectedRoute from './Components/ProtectedRoute'
 
@@ -29,7 +30,8 @@ function App() {
           <Route path='/tvshow' element={<ProtectedRoute><TvShow/></ProtectedRoute>}></Route>
           <Route path='/game' element={<ProtectedRoute><Game/></ProtectedRoute>}></Route>
           <Route path='/search' element={<ProtectedRoute><SearchPage/></ProtectedRoute>}></Route>
-          <Route path='/signup' element={<SignUpPage/>}></Route>             
+          <Route path='/signup' element={<SignUpPage/>}></Route>
+          <Route path="/*" element={<ErrorPage/>}></Route>             
       </Routes>
     </AuthContextProvider>
   )
