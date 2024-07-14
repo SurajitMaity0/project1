@@ -1,18 +1,21 @@
 import React, { useState } from "react";
-import { auth } from '../../firebase/config' 
-import { createUserWithEmailAndPassword, onAuthStateChanged } from 'firebase/auth';
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
+import { UserAuth } from '../../Context/AuthContext'
+import { auth } from '../../firebase/config';
 import './SignUpForm.sass'
 
 const SignUpForm = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
-  const [user, setUser] = useState("");
-  
+  const [user, setUser] = useState({});
+  const {createUser} = UserAuth();
+  const navigate = useNavigate();
+
   const handleSubmit = async (e) => {
         e.preventDefault();
         try{
-          const user = await createUserWithEmailAndPassword(auth, email, password);
+          const user = await createUser(email, password);
+          navigate('/home');
         } catch(err){
           console.log(err.message);
         }
@@ -27,10 +30,12 @@ const SignUpForm = () => {
             <input 
               type="email" 
               placeholder="Email"
+              value={email}
               onChange={e => setEmail(e.target.value)} />
             <input 
               type="password" 
               placeholder="Password"
+              value={password}
               onChange={e => setPassword(e.target.value)} />
 
             <button className='signup-btn'>Sign Up</button>

@@ -88,54 +88,43 @@ header
 
     // right nav
     .right-nav
-       
         width: 50%
         height: 100%
-
         display: flex
         justify-content: flex-end
         align-items: center
-        gap: 3%
+        gap: 10px
+        padding: 0 10px
         .search
-            width: 45%
-            height: 75%
+            width: 300px
+            padding: 15px 10px
+            font-size: 1rem
             display: flex
             border-radius: 50px
             background-color: #ff110054
 
             @include respond-to(small)
-                width: 50%
-                height: 40%
                 display: none
             
-
             .mic
                 width: 15%
                 height: 100%
                 cursor: pointer
                 font-size: 1.2vw
                 display: flex
-                
                 justify-content: center
                 color: #fff
                 align-items: center
-                @include respond-to(small)
-                    font-size: 2.5vw
-                    margin-left: 2%
-                
 
             input
-                width: 85%
+                width: 100%
                 background: none
                 border: none
                 color: #fff
                 font-size: 1.1vw
                 outline: none
                 height: 100%
-                
-                    
-                
-        
+
             .search-buts
                 width: 15%
                 color: #fff
@@ -147,66 +136,22 @@ header
                 border: none
                 justify-content: center
                 align-items: center
-        
                 height: 100%
+
                 @include respond-to(small)
                     font-size: 4vw
                     margin-right: 5%
-                
-                    
-                
-        .notifi
-            width: 20%
-            height: 100%
-            display: flex
-            justify-content: space-evenly
-            align-items: center
-            gap: 20%
-            @include respond-to(small)
-                width: 50%
-            
-            span
-                font-size: 1.5vw
-                color: var(--text-color-dark)
-                cursor: pointer
-         
-                @include respond-to(small)
-                    font-size: 4.3vw
-                
 
-
+        .search-icon1
+            display: none    
         .profile
-            width: 8%
-            height: 98%
-            margin-right: 1%
-            display: flex
-            justify-content: center
-            align-items: center
-            border-radius: 50%
-            cursor: pointer
-          
-            // porfile hove  user-name show
-            @include respond-to(small)
-                width: 20%
-                height: 80%
-            &:hover
-                .user-name
-                    display: block
-            .user-icon
-                font-size: 2.5vw
-                @include respond-to(small)
-                    font-size: 6vw
-                   
-                
+            width: 40px
+            height: 40px
 
-      
-            
+            .user-icon
+                font-size: 2rem
             
             .user-name
                 position: absolute
-                top: 8%
-                display: none
-                right: 1%
-                color: white
                 font-size: 1.2vw
-                z-index: 100
+                z-index: 10
