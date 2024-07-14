@@ -2,21 +2,23 @@ const express = require('express');
 const axios = require('axios');
 const path = require('path');
 const app = express();
+const cors = require('cors');
+
 require('dotenv').config();
 
 // api key and host
-const apikey = process.env.apikey;
-const apihost = process.env.apihost;
+const apikey = "e1d35bcec6mshfd8ab498d42aa17p1b0badjsn547826a163db";
+const apihost = "online-movie-database.p.rapidapi.com";
 
-// serve react pages
-const buildPath = '../client/dist';
-app.use(express.static(path.join(__dirname, buildPath)));
+// // serve react pages
+// const buildPath = '../client/dist';
+// app.use(express.static(path.join(__dirname, buildPath)));
 
-app.use('/', (req, res) => {
-  res.sendFile(path.join(__dirname, buildPath, 'index.html'));
-});
+// app.use('/', (req, res) => {
+//   res.sendFile(path.join(__dirname, buildPath, 'index.html'));
+// });
 
-
+app.use(cors());
 app.get('/sign-in', (req, res) => {
   res.send('This is Sign-in Page');
 });
