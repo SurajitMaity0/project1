@@ -1,26 +1,21 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './Styles/HeroBox.sass'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faPlus, faCirclePlay, faCloudArrowDown } from '@fortawesome/free-solid-svg-icons'
 const HeroBox = (props) => {
   const data = props.data1.movieData;
 
-  
   const isSmallScreen = () => {
     if (window.innerWidth < 600) {
-      console.log('small screen');
       return true;
     }
     else if (window.innerWidth > 600) {
-      console.log('big screen');
       return false;
     }
     else
     {
-      console.log('no screen');
       return false;
     }
-
   }
 
   return (

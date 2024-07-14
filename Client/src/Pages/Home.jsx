@@ -4,8 +4,8 @@ import { Header, Hero, SliderMini, SliderImage, SliderVeido } from '../Component
 import MainContext from '../Context/MainContext.js';
 
 import companyData from '../assets/catagori.json';
+import { UserAuth } from '../Context/AuthContext.js';
 
-import CharacterSlider from '../Components/Characters/CharacterSlider.jsx';
 const Home = () => {
 
   const {data} = useContext(MainContext);
@@ -31,28 +31,26 @@ const Home = () => {
 
     // comapany data desturcher
     const {channels,companies} = companyData;
+
+    const { user, logout } = UserAuth();
+
   return (
     <>
       <div className='Home'>
-          <Header/>
+          <Header user={user} />
           {/* <CharacterSlider/> */}
-          <Hero/>
-          <SliderMini data={channels}/>
-          <SliderImage data={tvSeries} />
-          <SliderMini data={companies}/>
-          <SliderImage data={movies} />
-     
-          <SliderImage data={year1990} />
-          <SliderImage data={year2000} />
-          <SliderMini data={companies}/>
-          <SliderImage data={year1990} />
-        
-          <SliderImage data={year2000} />
-          <SliderMini data={companies}/>
-      
-          
-
-          
+            <Hero/>
+            
+            <SliderMini data={channels}/>
+            <SliderImage data={tvSeries} />
+            <SliderMini data={companies}/>
+            <SliderImage data={movies} />
+            <SliderImage data={year1990} />
+            <SliderImage data={year2000} />
+            <SliderMini data={companies}/>
+            <SliderImage data={year1990} />
+            <SliderImage data={year2000} />
+            <SliderMini data={companies}/>    
       </div>
      </>
   )

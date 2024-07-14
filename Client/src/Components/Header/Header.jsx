@@ -6,7 +6,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars, faHouse, faCirclePlay, faTv, faGamepad,faHeart,faMicrophone, faCloudArrowDown, faCircleUser, faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons';
 import Search from './Search';
 
-const Header = () => {
+const Header = ({ user }) => {
   
   const [showSingup, setShowSingup] = useState(false);
   const handelopen = () => {
@@ -65,9 +65,12 @@ const Header = () => {
             <span className='bell'><FontAwesomeIcon icon={faHeart} /></span>
             <span className='donwlod'><FontAwesomeIcon icon={faCloudArrowDown} /></span>
           </div>
+
           <div className="profile" onClick={handelopen}>
-            <div className="user-icon"><FontAwesomeIcon icon={faCircleUser} /></div>
-            <div className="user-name">surajit maity</div>
+            <div className="user-icon">
+              <FontAwesomeIcon icon={faCircleUser} />
+            </div>
+            <div className="user-name">name{user?.email}</div>
           </div>
 
         </div>
