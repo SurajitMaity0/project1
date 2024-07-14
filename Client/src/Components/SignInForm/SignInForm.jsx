@@ -1,30 +1,32 @@
 import React, { useState } from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGoogle } from '@fortawesome/free-brands-svg-icons';
-import { auth } from '../../firebase/config' 
-import { signInWithEmailAndPassword, onAuthStateChanged } from 'firebase/auth';
 
 import './SignInForm.sass'
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
+import { UserAuth } from "../../Context/AuthContext";
 
 const SignInForm = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [error, setError] = useState(false);
   const [errorMessage, setErrorMessage] = useState("Something went wrong!");
-  const [user, setUser] = useState({});
+
+  const { signIn } = UserAuth();
+  const navigate = useNavigate();
+
   const handleSubmit = async (e) => {
         e.preventDefault();
         try{
-          const user = await signInWithEmailAndPassword(auth, email, password);
+          await signIn(email, password);
+          setEmail('');
+          setPassword('');
+          navigate('/home');
         } catch(err){
           console.log(err.message);
           setErrorMessage(err.message);
           setError(true);
         }
-
-        setEmail('');
-        setPassword('');
   }
   return(
       <div className="form-container">

@@ -5,27 +5,29 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 // Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/pagination';
-
+import 'swiper/css/navigation';
 import './Styles/Hero.sass';
-
+// import required modules
+import { Navigation } from 'swiper/modules';
 // import required modules
 import { Pagination } from 'swiper/modules';
 import HeroBox from './HeroBox';
 import data from '../../assets/data3.json'
 
 const Hero = () => {
-  console.log(data);
+
   return (
     <div className='Hero'>
       <Swiper
+        navigation={true} 
         pagination={{
           dynamicBullets: true,
         }}
-        modules={[Pagination]}
+        modules={[Pagination,Navigation]}
         className="mySwiper"
       >
         {data.map((item, index) => {
-          console.log("this is",item);
+   
           return (
 
             <SwiperSlide key={index}>

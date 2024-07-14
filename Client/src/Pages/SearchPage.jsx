@@ -9,7 +9,7 @@ const SearchPage = () => {
     const searchText = location.state?.searchText;
     const searchTextUpper = searchText.toUpperCase();
     const { data } = useContext(MainContext);
-    console.log(data);
+
     const filteredData = data.filter((item) => item.title.toUpperCase().includes(searchTextUpper));
     return(
         <section className="search-page">
@@ -17,14 +17,13 @@ const SearchPage = () => {
             <h1>
                 Search: {searchText && <span>{searchText} </span>} 
 
-                [Found: {filteredData.length} movies]
-
             </h1>
     
             <div className="movies-card-container">
                 {filteredData
                 .map((item, index) => {
                     return(
+                        
                         <MoviesCard 
                             key={index} 
                             id={index + 1} 

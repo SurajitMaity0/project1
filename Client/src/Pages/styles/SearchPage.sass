@@ -5,7 +5,12 @@
         margin-left: 20px
         font-size: 2rem
         text-align: center
-        margin-bottom: 20px    
+        margin-bottom: 20px
+        @include respond-to(small)
+            margin-top: 60px
+            margin-left: 20px
+            font-size: 1.3rem
+        
     
     
 .movies-card-container
@@ -19,6 +24,7 @@
     padding: 25px
     justify-content: center
     @include respond-to(small)
+        // two card show
         grid-template-columns: repeat(auto-fill, minmax(150px, 1fr))
         grid-template-rows: repeat(auto-fill, minmax(200px, 1fr))
         padding: 10px

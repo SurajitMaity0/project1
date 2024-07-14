@@ -1,4 +1,5 @@
 [
+  
   {
     "id": "/title/tt4729430/",
     "image": {
@@ -11,7 +12,6 @@
     "titleType": "movie",
     "year": 2019
   },
-
   {
     "id": "/title/tt5814534/",
     "image": {
@@ -752,7 +752,6 @@
       "url": "https://m.media-amazon.com/images/M/MV5BMTUyNzgxNjg2M15BMl5BanBnXkFtZTgwMTY1NDI1NjE@._V1_.jpg",
       "width": 660
     },
-
     "title": "Kung Fu Panda 3",
     "titleType": "movie",
     "year": 2016
@@ -765,7 +764,6 @@
       "url": "https://m.media-amazon.com/images/M/MV5BYzQ0ZWIxZjAtYWI3Yy00MGM0LWFjOGYtNzcyYThiOTA3ODI1XkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_.jpg",
       "width": 482
     },
-    
     "title": "Kung Fu Panda 2",
     "titleType": "movie",
     "year": 2011

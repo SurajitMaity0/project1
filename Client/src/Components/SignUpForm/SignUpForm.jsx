@@ -1,27 +1,25 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { UserAuth } from '../../Context/AuthContext'
-import { auth } from '../../firebase/config';
 import './SignUpForm.sass'
 
 const SignUpForm = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
-  const [user, setUser] = useState({});
   const {createUser} = UserAuth();
   const navigate = useNavigate();
 
+  
   const handleSubmit = async (e) => {
         e.preventDefault();
         try{
-          const user = await createUser(email, password);
+          await createUser(email, password);
+          setEmail('');
+          setPassword('');
           navigate('/home');
         } catch(err){
           console.log(err.message);
         }
-
-        setEmail('');
-        setPassword('');
   }
   return(
       <div className="form-container">

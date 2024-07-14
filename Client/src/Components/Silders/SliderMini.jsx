@@ -13,16 +13,16 @@ import 'swiper/css/pagination';
 
 
 import MiniBox from './MiniBox';
-import OpenPage from '../Moviesdetails/OpenPage';
+// import OpenPage from '../Moviesdetails/OpenPage';
 
 const SliderMini = (props) => {
-    const [openPage,setOpenPage] = useState(false);
+    // const [openPage,setOpenPage] = useState(false);
     const [slidesPerViews, setSlidesPerViews] = useState(7);
     const { data,tital} = props;
 
-    const handelOpenPage = ()=>{
-        setOpenPage(true);
-    }
+    // const handelOpenPage = ()=>{
+    //     setOpenPage(true);
+    // }
 
     useEffect(() => {
         const handleResize = () => {
@@ -58,7 +58,7 @@ const SliderMini = (props) => {
                 >
                     {data.map((item, index) => {
                         return (
-                            <SwiperSlide className='slide' key={item.id} onClick={handelOpenPage}>
+                            <SwiperSlide className='slide' key={item.id}>
                                 <MiniBox url={item.logo} name={item.name} veido_URl={item.veido_URl} />
                             </SwiperSlide>
                         )
@@ -67,7 +67,7 @@ const SliderMini = (props) => {
                     )}
                     
                 </Swiper>
-                {openPage && <OpenPage/>}
+                
             </div>
 
         </>
