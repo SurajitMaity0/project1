@@ -29,7 +29,7 @@ const Header = ({ user }) => {
           </div>
           <div className="nav">
             <ul>
-              <Link to='/'>
+              <Link to='/home'>
                 <li>
                   <span className='Hicons'><FontAwesomeIcon icon={faHouse} /></span>
                   Home

@@ -1,0 +1,29 @@
+@import '../../_mixins'
+.search-page
+    h1
+        margin-top: 20px
+        margin-left: 20px
+        font-size: 2rem
+        text-align: center
+        margin-bottom: 20px    
+    
+    
+.movies-card-container
+    background-color: #01024b
+    width: 100%
+    height: auto
+    display: grid
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr))
+    grid-template-rows: repeat(auto-fill, minmax(300px, 1fr))
+    grid-gap: 1.5rem
+    padding: 25px
+    justify-content: center
+    @include respond-to(small)
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr))
+        grid-template-rows: repeat(auto-fill, minmax(200px, 1fr))
+        padding: 10px
+        grid-gap: 1rem
+    
+
+  
+

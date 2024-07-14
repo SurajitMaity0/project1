@@ -18,7 +18,7 @@ import OpenPage from '../Moviesdetails/OpenPage';
 const SliderMini = (props) => {
     const [openPage,setOpenPage] = useState(false);
     const [slidesPerViews, setSlidesPerViews] = useState(7);
-    const { data } = props;
+    const { data,tital} = props;
 
     const handelOpenPage = ()=>{
         setOpenPage(true);
@@ -49,7 +49,7 @@ const SliderMini = (props) => {
     return (
         <>
             <div className="slider-mini">
-                <h2></h2>
+                <h2>{tital}</h2>
                 <Swiper
                     slidesPerView={slidesPerViews}
                     spaceBetween={10}

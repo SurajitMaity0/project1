@@ -88,5 +88,82 @@
                 "url": "https://m.media-amazon.com/images/M/MV5BMjU5NTYyMTY3M15BMl5BanBnXkFtZTgwNjQ1NDgwNjE@._V1_.jpg"
             }
         ]
+    },
+    "movieData": {
+        "contentDetails": {
+            "id": "/title/tt4729430/",
+            "title": {
+                "@type": "imdb.api.title.title",
+                "id": "/title/tt4729430/",
+                "image": {
+                    "height": 2222,
+                    "id": "/title/tt4729430/images/rm1843825409",
+                    "url": "https://m.media-amazon.com/images/M/MV5BMWYwOThjM2ItZGYxNy00NTQwLWFlZWEtM2MzM2Q5MmY3NDU5XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg",
+                    "width": 1500
+                },
+                "runningTimeInMinutes": 96,
+                "title": "Klaus",
+                "titleType": "movie",
+                "year": 2019
+            },
+            "certificates": {
+                "US": [
+                    {
+                        "certificate": "PG",
+                        "certificateNumber": 52252,
+                        "ratingReason": "Rated PG for rude humor and mild action",
+                        "ratingsBody": "MPAA",
+                        "country": "US"
+                    }
+                ]
+            },
+            "ratings": {
+                "canRate": true,
+                "rating": 8.2,
+                "ratingCount": 192139,
+                "topRank": 172
+            },
+            "genres": [
+                "Animation",
+                "Adventure",
+                "Comedy",
+                "Family",
+                "Fantasy"
+            ],
+            "releaseDate": "2019-11-15",
+            "plotOutline": {
+                "id": "/title/tt4729430/plot/po2369076",
+                "text": "A simple act of kindness always sparks another, even in a frozen, faraway place. When Smeerensburg's new postman, Jesper, befriends toymaker Klaus, their gifts melt an age-old feud and deliver a sleigh full of holiday traditions."
+            },
+            "plotSummary": {
+                "author": "Netflix",
+                "id": "/title/tt4729430/plot/ps4685548",
+                "text": "When Jesper (Jason Schwartzman) distinguishes himself as the postal academy's worst student, he is stationed on a frozen island above the Arctic Circle, where the feuding locals hardly exchange words let alone letters. Jesper is about to give up when he finds an ally in local teacher Alva (Rashida Jones), and discovers Klaus (Oscar® winner J.K. Simmons), a mysterious carpenter who lives alone in a cabin full of handmade toys. These unlikely friendships return laughter to Smeerensburg, forging a new legacy of generous neighbors, magical lore and stockings hung by the chimney with care. An animated Christmas comedy directed by Despicable Me co-creator Sergio Pablos, KLAUS co-stars Rashida Jones, Jason Schwartzman and JK Simmons."
+            }
+        },
+        "trailers": [
+            {
+                "id": "vi3213606681",
+                "contentType": "amzn1.imdb.video.contenttype.trailer"
+            },
+            {
+                "id": "vi1603190553",
+                "contentType": "amzn1.imdb.video.contenttype.trailer"
+            }
+        ],
+        "images": [
+            {
+                "id": "rm2566297857",
+                "url": "https://m.media-amazon.com/images/M/MV5BMjE5ZGU2Y2MtMzZkMi00YzI0LWIzMmEtOTIzYmY4MTIxNTEzXkEyXkFqcGdeQXVyNjg2NjQwMDQ@._V1_.jpg"
+            },
+            {
+                "id": "rm1270299137",
+                "url": "https://m.media-amazon.com/images/M/MV5BZjZhOTkzNDctYzJmMi00ZDdhLThjZTktNjYxYjYzYTU1ZjIyXkEyXkFqcGdeQXVyMTUyOTI2Mjk0._V1_.jpg"
+            },
+            {
+                "id": "rm1102526977",
+                "url": "https://m.media-amazon.com/images/M/MV5BMzA3OGFlM2EtZTkxOS00ZWFlLTk2N2UtYjY0ZDFjMTc1NWQ2XkEyXkFqcGdeQXVyMTUyOTI2Mjk0._V1_.jpg"
+            }
+        ]
     }
 }

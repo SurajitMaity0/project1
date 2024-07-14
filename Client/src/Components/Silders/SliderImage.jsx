@@ -8,7 +8,7 @@ import ImageBox from './ImageBox';
 import { Link, NavLink } from 'react-router-dom';
 import Details from '../Moviesdetails/Details';
 const SliderImage = (props) => {
-  const { data } = props;
+  const { data,tital } = props;
   const [slidesPerViews, setSlidesPerViews] = useState(9);
   // Function to extract the ID from the fullId string
   const extractId = (fullId) => {
@@ -40,7 +40,7 @@ const SliderImage = (props) => {
 
   return (
     <div className="sliderImage">
-      <h2>Slider Image</h2>
+      <h2>{tital}</h2>
       <Swiper
         slidesPerView={slidesPerViews}
         spaceBetween={5}
