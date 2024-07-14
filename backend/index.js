@@ -10,19 +10,22 @@ require('dotenv').config();
 const apikey = "e1d35bcec6mshfd8ab498d42aa17p1b0badjsn547826a163db";
 const apihost = "online-movie-database.p.rapidapi.com";
 
-// // serve react pages
-// const buildPath = '../client/dist';
-// app.use(express.static(path.join(__dirname, buildPath)));
+// serve react pages
+const buildPath = '../client/dist';
+app.use(express.static(path.join(__dirname, buildPath)));
 
-// app.use('/', (req, res) => {
-//   res.sendFile(path.join(__dirname, buildPath, 'index.html'));
-// });
+// serve react pages
+app.use('/', (req, res) => {
+  res.sendFile(path.join(__dirname, buildPath, 'index.html'));
+});
 
 app.use(cors());
 app.get('/sign-in', (req, res) => {
   res.send('This is Sign-in Page');
 });
 
+// =======
+// >>>>>>> 1bdada23a209bf70548cbffe62539b19492f8d46
 app.get('/data', async (req, res) => {
   const options = {
     method: 'GET',
@@ -54,6 +57,8 @@ app.get('/data', async (req, res) => {
   }
 }
 );
+
+const movieData = [];
 
 app.get('/data/:id', async (req, res) => {
   const { id } = req.params;
