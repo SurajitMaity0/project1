@@ -9,8 +9,7 @@ import VideoModal from '../Components/Silders/VideoModal.jsx';
 import MobileMenu from '../Components/MobileMenu/MobileMenu.jsx';
 import Footer from './Footer.jsx';
 
-const Home = () => {
-
+const Home = () => {  
   const { data, isVideoModalOpen } = useContext(MainContext);
   const tvSeries = [];
   const movies = [];
